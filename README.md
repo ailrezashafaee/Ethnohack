@@ -11,7 +11,7 @@ and Alireza Shafaee (M.Sc. student, Computer Science, University of Bonn)
 > Historical claims only, not medical advice. A verdict says what the modern literature reports,
 > not that a remedy works or is safe.
 
-**Explore the results:** open `data/06_graph/explorer.html` in a browser.
+**Explore the results:** open `data/06_graph/explorer.html` in a browser, or the [online version](https://ailrezashafaee.github.io/Ethnohack/data/06_graph/explorer.html).
 
 ## Research questions
 

@@ -31,4 +31,29 @@ void main() {
   test('empty query finds nothing', () {
     expect(catalog.search('   '), isEmpty);
   });
+
+  test('groups remedies by plant and by condition', () {
+    final garlic = catalog.plants.firstWhere((p) => p.name == 'garlic');
+    expect(catalog.ofPlant(garlic), hasLength(44));
+    final toothache = catalog.conditions.firstWhere(
+      (c) => c.label == 'Toothache',
+    );
+    expect(catalog.ofCondition(toothache), hasLength(13));
+    expect(
+      catalog.claimsPerPlant[catalog.plants.first]!,
+      greaterThanOrEqualTo(catalog.claimsPerPlant[catalog.plants.last]!),
+    );
+  });
+
+  test('assistant preview answers a question in plain words', () {
+    final answer = catalog.answer('Was garlic good for toothache?');
+    expect(answer, isNotEmpty);
+    expect(
+      answer.every(
+        (r) => r.plant.name == 'garlic' && r.condition.label == 'Toothache',
+      ),
+      isTrue,
+    );
+    expect(catalog.answer('what about it?'), isEmpty);
+  });
 }

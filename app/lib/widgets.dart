@@ -40,10 +40,7 @@ class PageHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (badge != null) ...[
-          Tag(text: badge!),
-          const SizedBox(height: 10),
-        ],
+        if (badge != null) ...[Tag(text: badge!), const SizedBox(height: 10)],
         Text(title, style: serif(context, isCompact(context) ? 32 : 40)),
         if (lede != null) ...[
           const SizedBox(height: 6),
@@ -129,6 +126,7 @@ class VerdictBar extends StatelessWidget {
           child: SizedBox(
             height: 10,
             child: Row(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 for (final MapEntry(key: v, value: n) in counts.entries)
                   Expanded(
@@ -181,7 +179,10 @@ class RemedyCard extends StatelessWidget {
           style: serif(context, 21),
         ),
         if (remedy.plant.scientific.isNotEmpty)
-          Text(remedy.plant.scientific, style: serif(context, 16, italic: true)),
+          Text(
+            remedy.plant.scientific,
+            style: serif(context, 16, italic: true),
+          ),
         const SizedBox(height: 4),
         Text(
           '$claims ${claims == 1 ? 'claim' : 'claims'} · '

@@ -187,9 +187,7 @@ class _EntryCard extends StatelessWidget {
               Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  Expanded(
-                    child: Text(entry.title, style: serif(context, 22)),
-                  ),
+                  Expanded(child: Text(entry.title, style: serif(context, 22))),
                   Text(
                     '${entry.claims} claims · $n ${n == 1 ? 'remedy' : 'remedies'}',
                     style: TextStyle(color: palette.muted, fontSize: 13),
@@ -221,6 +219,7 @@ class _MiniBar extends StatelessWidget {
       child: SizedBox(
         height: 6,
         child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             for (final v in Verdict.values)
               if (remedies.any((r) => r.verdict == v))

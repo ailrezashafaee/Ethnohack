@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'data.dart';
-import 'screens/search_screen.dart';
+import 'screens/home_shell.dart';
 import 'theme.dart';
 
 void main() => runApp(const PlinyApp());
@@ -39,7 +39,7 @@ class _PlinyAppState extends State<PlinyApp> {
               body: Center(child: CircularProgressIndicator()),
             );
           }
-          return SearchScreen(catalog: catalog);
+          return HomeShell(catalog: catalog);
         },
       ),
     );

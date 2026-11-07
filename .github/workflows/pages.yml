@@ -1,0 +1,38 @@
+name: Publish explorer
+
+on:
+  push:
+    branches: [final]
+    paths:
+      - data/06_graph/explorer.html
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}data/06_graph/explorer.html
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build site
+        run: |
+          mkdir -p _site/data/06_graph
+          cp data/06_graph/explorer.html _site/data/06_graph/explorer.html
+          printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=data/06_graph/explorer.html"><a href="data/06_graph/explorer.html">Explorer</a>\n' > _site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

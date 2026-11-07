@@ -1,10 +1,14 @@
 # Pliny app
 
-A simple search app over the pipeline's results: type a condition, symptom, plant or any word and
-see what Pliny prescribed in *Natural History*, Book 20, the verdict from the modern literature,
-his own words and the papers behind it. Same data and colours as `data/06_graph/explorer.html`.
+Browse and search the pipeline's results on phone, desktop or web. Same data and colours as
+`data/06_graph/explorer.html`. Historical claims only, not medical advice.
 
-Historical claims only, not medical advice.
+- **Search**: any condition, symptom, plant or word, filtered by verdict.
+- **Plants** and **Conditions**: every plant or condition, most documented first, with all its
+  remedies, Pliny's words and the papers behind each verdict.
+- **Assistant** (preview): a chat screen for the planned AI assistant connected to our evidence
+  resolver. For now it answers with a keyword match on the local data; there is no backend.
+- **About**: method, planned features (placeholders), team and sources.
 
 ## Run
 

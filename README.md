@@ -13,6 +13,8 @@ and Alireza Shafaee (M.Sc. student, Computer Science, University of Bonn)
 
 **Explore the results:** open `data/06_graph/explorer.html` in a browser, or the [online version](https://ailrezashafaee.github.io/Ethnohack/data/06_graph/explorer.html).
 
+**App:** search and browse every remedy by plant or condition, on phone or desktop: [open the app](https://ailrezashafaee.github.io/Ethnohack/app/) (installable as a web app; see `app/README.md`).
+
 ## Research questions
 
 1. How do Pliny's remedies hold up today: supported, studied, or never tested?
@@ -90,6 +92,9 @@ go into the `review.csv` / `overrides.csv` files of stages 3 and 4. To load the 
 copy `data/06_graph/*.csv` into the database's import folder, run `load_neo4j.cypher`, then try
 `example_queries.cypher`.
 
+The app (Flutter) runs with `cd app && flutter run -d chrome` (or a phone simulator); it reads a
+copy of `data/06_graph/graph.json`. GitHub Pages publishes it and the explorer on every push to `main`.
+
 ## Repository layout
 
 ```
@@ -100,6 +105,7 @@ gold/                gold set (gold.jsonl) and annotation workbook
 data/00_source       Perseus TEI source
 data/01_text … 06_graph   outputs of each stage, with team decisions and caches
 docs/                workflow and method notes
+app/                 Flutter app (web, phone, desktop): search, plants, conditions, assistant preview
 ```
 
 ## Limitations

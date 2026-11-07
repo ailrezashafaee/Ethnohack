@@ -2,7 +2,7 @@ name: Publish explorer
 
 on:
   push:
-    branches: [final]
+    branches: [main]
     paths:
       - data/06_graph/explorer.html
       - .github/workflows/pages.yml

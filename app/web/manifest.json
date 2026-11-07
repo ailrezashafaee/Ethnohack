@@ -1,12 +1,12 @@
 {
-    "name": "pliny_app",
-    "short_name": "pliny_app",
+    "name": "Was Pliny right?",
+    "short_name": "Pliny",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#E8ECE4",
+    "theme_color": "#3F5A3A",
+    "description": "Pliny's plant remedies checked against modern science. Historical claims, not medical advice.",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {

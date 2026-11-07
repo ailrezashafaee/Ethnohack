@@ -1,10 +1,11 @@
-name: Publish explorer
+name: Publish explorer and app
 
 on:
   push:
     branches: [main]
     paths:
       - data/06_graph/explorer.html
+      - app/**
       - .github/workflows/pages.yml
   workflow_dispatch:
 
@@ -22,13 +23,24 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}data/06_graph/explorer.html
+      url: ${{ steps.deployment.outputs.page_url }}app/
     steps:
       - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.41.4
+          cache: true
+      - name: Build app
+        working-directory: app
+        run: |
+          flutter pub get
+          flutter build web --release --base-href "/${{ github.event.repository.name }}/app/"
       - name: Build site
         run: |
           mkdir -p _site/data/06_graph
           cp data/06_graph/explorer.html _site/data/06_graph/explorer.html
+          cp -r app/build/web _site/app
           printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=data/06_graph/explorer.html"><a href="data/06_graph/explorer.html">Explorer</a>\n' > _site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

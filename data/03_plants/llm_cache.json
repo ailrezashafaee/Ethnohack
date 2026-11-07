@@ -1,0 +1,2497 @@
+{
+ "qwen3:8b|plants-v1|onion": {
+  "candidates": [
+   {
+    "name": "Allium cepa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to the cultivated onion and its medicinal uses, including treating eye conditions, mouth ulcers, and digestive issues, which align with Allium cepa."
+   },
+   {
+    "name": "Allium fistulosum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While not explicitly named, Allium fistulosum (scallion) is a close relative of the onion and may have been used similarly in Roman times, though less certain."
+   },
+   {
+    "name": "Allium sativum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Though garlic is a close relative, Pliny's descriptions focus more on the cultivated onion rather than garlic, which is a different species."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild cucumber": {
+  "candidates": [
+   {
+    "name": "Ecballium elaterium",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes the wild cucumber as producing 'elaterium,' a substance extracted from its seeds, which matches the modern scientific name Ecballium elaterium."
+   },
+   {
+    "name": "Ecballium arabicum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Pliny mentions that the best wild cucumber comes from Arabia, which aligns with Ecballium arabicum, a closely related species."
+   },
+   {
+    "name": "Ecballium hirtum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Pliny refers to the plant as 'anguine' or 'erratic cucumber,' which may correspond to Ecballium hirtum, though this is less certain due to limited direct evidence."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|elaterium": {
+  "candidates": [
+   {
+    "name": "Cucumis sativus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to elaterium as a cucumber, and the description of its appearance and use aligns with the common cucumber (Cucumis sativus)."
+   },
+   {
+    "name": "Cucurbita pepo",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The text mentions a cucumber-like plant, and Cucurbita pepo includes various gourds and cucumbers, though the specific reference to 'elaterium' is more closely tied to Cucumis sativus."
+   },
+   {
+    "name": "Cucurbita maxima",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Cucurbita maxima is a type of squash, the text specifically refers to a cucumber, making this identification less likely."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cucumber": {
+  "candidates": [
+   {
+    "name": "Cucumis sativus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of 'cultivated cucumber' and its medicinal use aligns with the modern species Cucumis sativus, which was known and cultivated in the Roman world."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|pepone": {
+  "candidates": [
+   {
+    "name": "Cucurbita pepo",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of pepones as cool, refreshing, and slightly relaxing to the stomach aligns with the properties of Cucurbita pepo, a common gourd used in the Roman world."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|gourd": {
+  "candidates": [
+   {
+    "name": "Cucurbita pepo",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of a wild gourd with an empty interior, long and thick shape, and its use for stomach ailments matches Cucurbita pepo, which includes various gourds known in the Roman world."
+   },
+   {
+    "name": "Cucurbita maxima",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Cucurbita maxima is a wild gourd species with similar physical characteristics and traditional uses, though it is less commonly referenced in ancient texts compared to Cucurbita pepo."
+   },
+   {
+    "name": "Cucurbita argyrosperma",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Cucurbita argyrosperma is a gourd species with a different morphology and is more associated with the Americas, though it may have been introduced later, making its connection to Pliny's description uncertain."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|rape": {
+  "candidates": [
+   {
+    "name": "Brassica napus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of rape as a medicinal plant with uses for gout, foot ailments, and as a liniment aligns with Brassica napus, which is known in the Roman world and has similar properties."
+   },
+   {
+    "name": "Sinapis alba",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Rape-seed is mentioned as a liniment and antidote, which could refer to Sinapis alba, a close relative of Brassica napus and also known in ancient times for its medicinal uses."
+   },
+   {
+    "name": "Brassica rapa",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Brassica rapa is a possible candidate for rape, the specific medicinal uses described, such as for gout and foot ailments, are more commonly associated with Brassica napus."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild radish": {
+  "candidates": [
+   {
+    "name": "Armoracia rusticana",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to it as 'wild radish' and uses the Latin name 'Armoracium', which matches the modern scientific name."
+   },
+   {
+    "name": "Raphanus raphanistrum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Wild radish is a common name for Raphanus raphanistrum, which is a wild relative of the cultivated radish, and could be confused with Armoracia rusticana."
+   },
+   {
+    "name": "Brassica rapa",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "This species is known as 'wild radish' in some regions, but the name 'Armoracium' used by Pliny does not directly correspond to this species."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hibiscum": {
+  "candidates": [
+   {
+    "name": "Hibiscus cannabinus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of hibiscum resembling the parsnip and its use for treating ulcers and fractures aligns with the properties of Hibiscus cannabinus, which was known in the Roman world."
+   },
+   {
+    "name": "Abutilon theophrasti",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Abutilon theophrasti, also known as velvetleaf, is a relative of hibiscus and could be confused with hibiscum, though it is less commonly referenced in Roman texts."
+   },
+   {
+    "name": "Hibiscus syriacus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Hibiscus syriacus is a flowering plant known in the Roman world, but it is more commonly associated with ornamental use rather than medicinal applications described for hibiscum."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|staphylinos": {
+  "candidates": [
+   {
+    "name": "Pastinaca sativa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The staphylinos is described as a wild parsnip, and Pastinaca sativa is a known wild parsnip species used in the Roman world."
+   },
+   {
+    "name": "Pastinaca atrata",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This is another species of wild parsnip, which may have been referred to as staphylinos in ancient texts, though less commonly documented."
+   },
+   {
+    "name": "Daucus carota",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Daucus carota is the common carrot, its subspecies sativus is cultivated, and the text refers to a wild plant, making this a less likely candidate."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|parsnip": {
+  "candidates": [
+   {
+    "name": "Pastinaca sativa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of the cultivated parsnip and its use for scorpion stings aligns with the modern species Pastinaca sativa, which is known in the Roman world and has similar medicinal properties."
+   },
+   {
+    "name": "Pastinaca atrata",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The wild parsnip mentioned by Pliny could refer to Pastinaca atrata, a close relative of the cultivated parsnip, though it is less commonly cultivated and more associated with wild habitats."
+   },
+   {
+    "name": "Daucus carota",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Daucus carota is the genus for carrots, the subspecies sativus is not typically referred to as parsnip in modern taxonomy, and the description more closely matches the genus Pastinaca."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|skirret": {
+  "candidates": [
+   {
+    "name": "Cyclamen purpurascens",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Pliny refers to 'skirret' as a plant with medicinal properties, particularly for the stomach, and the description of its juice being used in goats' milk aligns with traditional uses of Cyclamen species."
+   },
+   {
+    "name": "Cyclamen persicum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Cyclamen species are known in the Roman world and have been used for medicinal purposes, including stomach ailments, which matches the description of skirret in Pliny's text."
+   },
+   {
+    "name": "Cyclamen coum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Cyclamen coum is a species that has been historically used in herbal medicine, but its specific association with the name 'skirret' is less certain, and its use in Roman times is not well documented."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|elecampane": {
+  "candidates": [
+   {
+    "name": "Inula helenium",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to elecampane as a plant used to strengthen teeth and treat coughs, which matches the traditional uses of Inula helenium, also known as elecampane in historical texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cutleek": {
+  "candidates": [
+   {
+    "name": "Euphorbia lathyris",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Euphorbia lathyris, known as cutleek in Pliny's time, is used for stopping nosebleeds and is described as being pounded and applied to the nostrils, matching the text."
+   },
+   {
+    "name": "Euphorbia peplus",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Euphorbia peplus is another species of spurge that may have been referred to as cutleek, though it is less commonly associated with nosebleed treatments in ancient texts."
+   },
+   {
+    "name": "Euphorbia cyparissias",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Euphorbia cyparissias is a spurge species that may have been confused with cutleek, but there is less direct evidence linking it to the specific remedy described."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|bulbed leek": {
+  "candidates": [
+   {
+    "name": "Allium ampelum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Allium ampelum, known as bulbed leek in ancient texts, is a bulbous plant with leek-like characteristics and was used for medicinal purposes, matching the description in Pliny's text."
+   },
+   {
+    "name": "Allium porrum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Allium porrum, the common leek, is closely related to bulbed leek and may have been referred to interchangeably in ancient texts, though the emphasis on 'bulbed' suggests a distinct species."
+   },
+   {
+    "name": "Allium cepa",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Allium cepa (onion) is a bulb-forming plant, it is more commonly associated with onions rather than leeks, and its medicinal uses differ from those described for bulbed leek."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|garlic": {
+  "candidates": [
+   {
+    "name": "Allium sativum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The detailed description of garlic's medicinal uses, including its application for toothache, ulcers, and respiratory issues, matches the known properties of Allium sativum."
+   },
+   {
+    "name": "Allium cepa",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While Allium cepa (onion) is sometimes confused with garlic, the text specifically refers to garlic's use in remedies like toothache and phthiriasis, which are more characteristic of Allium sativum."
+   },
+   {
+    "name": "Allium fistulosum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Allium fistulosum (scallion) is less likely given the emphasis on garlic's strong medicinal properties and its use in various forms like decoctions and poultices, which are more typical of Allium sativum."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild lettuce": {
+  "candidates": [
+   {
+    "name": "Lactuca virosa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'wild lettuce' and describes its medicinal properties, including stopping bleeding and healing ulcers, which align with Lactuca virosa, a known wild lettuce species in the Roman world."
+   },
+   {
+    "name": "Lactuca serriola",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Lactuca serriola is another wild lettuce species with similar medicinal uses, though it is less commonly referenced in Roman texts compared to Lactuca virosa."
+   },
+   {
+    "name": "Lactuca sativa",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Lactuca sativa is cultivated lettuce, the reference to 'wild lettuce' suggests a wild species, making this candidate less likely."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|isatis": {
+  "candidates": [
+   {
+    "name": "Brassica napus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The plant 'isatis' is described as growing in the woods and having leaves used for treating wounds, which matches the characteristics of mustard (Brassica napus), a plant known in the Roman world and referred to as 'isatis' in ancient texts."
+   },
+   {
+    "name": "Raphanus sativus",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While 'isatis' is more commonly associated with mustard, the use of leaves for wounds could also refer to radish (Raphanus sativus), which was known in the Roman world and had medicinal uses."
+   },
+   {
+    "name": "Isatis tinctoria",
+    "llm_rank": 3,
+    "confidence": "high",
+    "reason": "The name 'isatis' is directly associated with the plant known as woad (Isatis tinctoria), which was used for dyeing and had medicinal properties, aligning with the description of leaves used for wounds."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hawk weed": {
+  "candidates": [
+   {
+    "name": "Arnica montana",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "The description of hawk-weed with round, short leaves and its use for eye conditions aligns with Arnica montana, which was known in the Roman world for its medicinal properties."
+   },
+   {
+    "name": "Tanacetum vulgare",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Tanacetum vulgare, also known as hawkweed, has similar characteristics and was used medicinally in ancient times, though it is less directly referenced in Pliny's text compared to Hieracium."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|beet": {
+  "candidates": [
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to both white and black beets, which are known to be varieties of Beta vulgaris, a plant cultivated in the Roman world for its roots."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The text describes the use of beet roots for various ailments, which aligns with the traditional uses of Beta vulgaris, though the subspecies is not explicitly mentioned."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Beta vulgaris subsp. cicla (chicory) is a related species, it is typically associated with its leaves rather than its roots, and the text specifically refers to the root."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|white beet": {
+  "candidates": [
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to both white and black beets, which are known to be varieties of Beta vulgaris, a plant cultivated in the Roman world for its roots."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The white beet is likely a subspecies or variety of Beta vulgaris, though the specific subspecies is not definitively identified in the text."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "This variety is known for its white roots, but the text does not explicitly mention the variety name, so this identification is less certain."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|black beet": {
+  "candidates": [
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to both white and black beets, which are known to be varieties of Beta vulgaris, a plant cultivated in the Roman world for its roots."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The black beet mentioned by Pliny is likely a subspecies or variety of Beta vulgaris, though the specific subspecies is not definitively identified in the text."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "This variety, known as the sugar beet, is not typically referred to as 'black beet' in ancient texts, though it is a close relative and may have been used in similar ways."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|limonion neuroide": {
+  "candidates": [
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes a wild beet with small, thin leaves, which matches the characteristics of Beta vulgaris subsp. cicla, a wild form of beet known in the Roman world."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The cultivated beet (Beta vulgaris subsp. vulgaris) is mentioned as a contrast to the wild beet, suggesting that 'limonion' and 'neuroides' refer to wild forms of the same species."
+   },
+   {
+    "name": "Beta vulgaris",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "This subspecies is a coastal form of beet, but there is no specific mention of coastal habitat in Pliny's description, making this identification less certain."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cabbage": {
+  "candidates": [
+   {
+    "name": "Brassica oleracea",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to cabbage as 'curly cabbage' and describes its medicinal uses, which align with the modern classification of Brassica oleracea var. capitata, the common cabbage."
+   },
+   {
+    "name": "Brassica oleracea",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The 'curly cabbage' mentioned by Pliny could also refer to Brassica oleracea var. sabauda, known as the curly kale, which shares similar characteristics and uses."
+   },
+   {
+    "name": "Brassica oleracea",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "The 'smooth cabbage with large leaves and a thick stalk' might correspond to Brassica oleracea var. acephala, though this variety is less commonly referenced in ancient texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|lapsana": {
+  "candidates": [
+   {
+    "name": "Tanacetum vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of a plant resembling mustard with white blossoms and hairy leaves matches Tanacetum vulgare, commonly known as common tansy, which was known in the Roman world."
+   },
+   {
+    "name": "Lapsana communis",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The name 'lapsana' is directly mentioned, and Lapsana communis is a known species with similar characteristics, though its use as a remedy is less documented in Roman texts."
+   },
+   {
+    "name": "Sinapis alba",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Sinapis alba (white mustard) is similar in appearance to the described plant, the text specifies that lapsana is not mustard, so this is a less likely match."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|sea cabbage": {
+  "candidates": [
+   {
+    "name": "Cucurbita pepo",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Pliny refers to 'sea-cabbage' as a strongly purgative plant, which aligns with the properties of certain cucurbit species used in ancient medicine."
+   },
+   {
+    "name": "Salsola kali",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Salsola kali, known as 'salt cabbage' or 'sea-cabbage' in some regions, is a halophytic plant that could be used as a purgative, matching the description."
+   },
+   {
+    "name": "Atriplex halimus",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "Atriplex halimus, also known as 'sea-cabbage' in some contexts, is a plant adapted to coastal areas and has been used in traditional medicine for its laxative properties."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|squill": {
+  "candidates": [
+   {
+    "name": "Scillium bulbosum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to squill as a plant used in medicine, with both male and female plants distinguished by color, and mentions its use in remedies for the gums, teeth, and as a purgative, which aligns with Scillium bulbosum."
+   },
+   {
+    "name": "Scilla siberica",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Scilla siberica is a bulbous plant with similar characteristics to squill, and it was known in the Roman world, though the specific medicinal uses described by Pliny may not be directly attributable to this species."
+   },
+   {
+    "name": "Allium squamatum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Allium species are known for their medicinal uses, the specific reference to squill with male and female plants and the use in vinegar and honey is more closely associated with Scillium species rather than Allium."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|bulb": {
+  "candidates": [
+   {
+    "name": "Allium cepa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of bulbs used in remedies, including their application in wounds, sinews, and as an aphrodisiac, matches the properties of onions (Allium cepa), which were well-known in the Roman world."
+   },
+   {
+    "name": "Allium sativum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Garlic (Allium sativum) is also a bulb plant with medicinal uses, and its properties align with some of the remedies described, though the text does not specify it directly."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Fennel (Foeniculum vulgare) is a bulb plant with medicinal uses, but the text does not mention its specific properties or Latin/Greek name, making this identification less certain."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|red bulb": {
+  "candidates": [
+   {
+    "name": "Allium sativum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of red bulbs used for treating wounds, skin conditions, and joint pain aligns with garlic (Allium sativum), which was well-known in the Roman world and had various medicinal uses."
+   },
+   {
+    "name": "Allium cepa",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Onion (Allium cepa) is also mentioned in ancient texts for its medicinal properties, and the text refers to bulbs, which onions produce. However, the emphasis on red bulbs and specific treatments like freckles and sprains leans more towards garlic."
+   },
+   {
+    "name": "Allium fistulosum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Leek (Allium fistulosum) is another bulb plant, but it is less likely to be referred to as 'red bulbs' and its medicinal uses in the Roman world are less documented compared to garlic and onion."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|bulb of megara": {
+  "candidates": [
+   {
+    "name": "Allium sativum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of bulbs used for wounds, sinews, and as an aphrodisiac aligns with garlic (Allium sativum), which was well-known in the Roman world and used for similar purposes."
+   },
+   {
+    "name": "Allium cepa",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Onion (Allium cepa) is also a bulb plant with medicinal uses, and its properties are sometimes confused with garlic in ancient texts, especially regarding skin conditions and digestive issues."
+   },
+   {
+    "name": "Allium fistulosum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Leek (Allium fistulosum) is another bulb plant with some medicinal uses, but its specific applications in Roman texts are less clear, and it is not as strongly associated with the described remedies."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild bulb": {
+  "candidates": [
+   {
+    "name": "Allium sativum",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Wild bulbs are likely referring to wild garlic or wild onions, which are related to Allium sativum and were used in ancient medicine."
+   },
+   {
+    "name": "Allium vineale",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Wild onions (Allium vineale) are known as wild bulbs and were used in ancient remedies, matching the context of the text."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Fennel is sometimes referred to as a bulb plant, but it is less likely to be the 'wild bulbs' mentioned in the context of healing wounds and intestinal issues."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|bulbine": {
+  "candidates": [
+   {
+    "name": "Allium cepa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of a plant with leaves resembling those of the leek and a red bulbous root matches Allium cepa, which is known in the Roman world and has a red bulb."
+   },
+   {
+    "name": "Allium sativum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While Allium sativum (garlic) also has bulbous roots, the mention of a red bulb and resemblance to leek is more consistent with A. cepa."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Fennel has a bulb-like structure, but it is not typically described as having red bulbs or resembling leeks in the texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|asparagus": {
+  "candidates": [
+   {
+    "name": "Asparagus officinalis",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to asparagus as a vegetable used in remedies for ailments like kidney pain, jaundice, and snake stings, which aligns with the known uses of Asparagus officinalis in ancient medicine."
+   },
+   {
+    "name": "Asparagus acutifolius",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This species, also known as the Spanish asparagus, was used in ancient times for similar medicinal purposes, though it is less commonly referenced in Roman texts compared to A. officinalis."
+   },
+   {
+    "name": "Asparagus plumosus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While this species is also known as asparagus, it is more commonly associated with ornamental use and less with the medicinal applications described by Pliny."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|parsley": {
+  "candidates": [
+   {
+    "name": "Petroselinum crispum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes parsley as having male and female plants with distinct characteristics, which matches the description of Petroselinum crispum, commonly known as parsley, and its use in food and medicine aligns with historical accounts."
+   },
+   {
+    "name": "Petroselinum sativum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Petroselinum sativum is a cultivated form of parsley, and while Pliny's text does not specify the exact variety, the use of parsley in food and medicine is consistent with this species."
+   },
+   {
+    "name": "Apium graveolens",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Apium graveolens (celery) is sometimes confused with parsley, but the text specifically refers to parsley as a seasoning and medicinal plant, which is more closely associated with Petroselinum species."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hipposelinon": {
+  "candidates": [
+   {
+    "name": "Nigella damascena",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'hipposelinon' as a plant repulsive to scorpions, which matches the traditional use of Nigella damascena (love-in-a-mist) for repelling pests."
+   },
+   {
+    "name": "Anethum graveolens",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Anise (Anethum graveolens) is a close relative of fennel and has aromatic properties, which could align with the description of 'hipposelinon' in some contexts."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "Fennel (Foeniculum vulgare) is another aromatic plant with similar properties to anise and could be confused with 'hipposelinon' based on its scent and use in ancient remedies."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|helioselinon": {
+  "candidates": [
+   {
+    "name": "Apium graveolens",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Helioselinon is described as having virtues against spider bites, which aligns with the properties of Apium graveolens, known in ancient times for its medicinal uses."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Foeniculum vulgare (fennel) was used in ancient medicine for various ailments, and its properties could be confused with those of helioselinon, especially regarding its use in remedies."
+   },
+   {
+    "name": "Anethum graveolens",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "Anethum graveolens (dill) was known in the Roman world and had medicinal uses, which could be associated with the description of helioselinon."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|oreoselinon": {
+  "candidates": [
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Oreoselinon is described as resembling cummin (Cuminum cyminum L.) and being used for menstrual discharge, which aligns with fennel's traditional uses in ancient medicine."
+   },
+   {
+    "name": "Anethum graveolens",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Anise is closely related to parsley and has similar medicinal uses, including aiding menstrual flow, which matches the description of oreoselinon."
+   },
+   {
+    "name": "Apium graveolens",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Celery is a relative of parsley and has some medicinal uses, but its association with oreoselinon is less direct based on the text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|petroselinon": {
+  "candidates": [
+   {
+    "name": "Apium graveolens",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to petroselinon as a plant used for abscesses, which matches the medicinal use of Apium graveolens (wild celery) in ancient times."
+   },
+   {
+    "name": "Petroselinum crispum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Petroselinum crispum (parsley) is sometimes called petroselinon in ancient texts, though its primary use was culinary, not specifically for abscesses."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Foeniculum vulgare (fennel) is sometimes confused with petroselinon, but it is more commonly associated with other uses and not specifically mentioned for abscesses in this context."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|buselinon": {
+  "candidates": [
+   {
+    "name": "Petroselinum crispum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Petroselinum crispum is the modern scientific name for parsley, which matches the description of petroselinon and buselinon, differing only in stalk length and root color."
+   },
+   {
+    "name": "Apium graveolens",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Apium graveolens (celery) is sometimes confused with parsley and may have similar characteristics, though the text specifically mentions petroselinon and buselinon as distinct."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Foeniculum vulgare (fennel) is another plant with similar appearance and medicinal use, but the text does not provide enough details to confidently associate it with buselinon."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild ocimum": {
+  "candidates": [
+   {
+    "name": "Ocimum basilicum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'wild ocimum' which is likely the wild form of Ocimum basilicum, a plant known in the Roman world and used for its medicinal properties."
+   },
+   {
+    "name": "Ocimum sanctum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Ocimum sanctum, also known as holy basil, is a species of Ocimum that could be referred to as 'wild ocimum' in ancient texts, though its use in the Roman world is less documented."
+   },
+   {
+    "name": "Ocimum americanum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Ocimum americanum is a species native to the Americas, which may not have been known in the Roman world, though it is sometimes referred to as 'wild ocimum' in modern contexts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild rocket": {
+  "candidates": [
+   {
+    "name": "Eruca sativa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of 'wild rocket' and its use in a remedy align with Eruca sativa, which was known in the Roman world and used medicinally."
+   },
+   {
+    "name": "Diplotaenia hirta",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Diplotaenia hirta is a wild relative of Eruca and may have been referred to as 'wild rocket' in ancient texts, though less commonly documented."
+   },
+   {
+    "name": "Sisymbrium irio",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Sisymbrium irio, also known as 'wild mustard,' could be confused with 'wild rocket' due to similar growth habits, but the specific remedy described is more closely associated with Eruca."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hemlock": {
+  "candidates": [
+   {
+    "name": "Conium maculatum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to hemlock as a plant whose juice neutralizes the effects of rue, and the Latin name 'Conium' is directly associated with hemlock in ancient texts, including the use of its juice for medicinal purposes."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild rue": {
+  "candidates": [
+   {
+    "name": "Ruta chalepensis",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'wild rue' with properties consistent with Ruta chalepensis, including its use for ear-ache and its root being efficacious when taken with wine."
+   },
+   {
+    "name": "Ruta graveolens",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Ruta graveolens is also known as common rue and shares similar medicinal properties described by Pliny, though the text specifies 'wild rue' which may more closely align with Ruta chalepensis."
+   },
+   {
+    "name": "Petroselinum crispum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Petroselinum crispum (parsley) is sometimes confused with rue, but it is not typically referred to as 'wild rue' and lacks the specific medicinal properties described."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild pennyroyal": {
+  "candidates": [
+   {
+    "name": "Mentha longifolia",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Wild pennyroyal is commonly identified with Mentha longifolia, which was known in the Roman world and matches the description of having strong medicinal properties."
+   },
+   {
+    "name": "Pulegium vulgare",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Pulegium vulgare, also known as wild pennyroyal, is another possible candidate due to its similar name and medicinal uses, though it is less commonly referenced in Roman texts."
+   },
+   {
+    "name": "Mentha rotundifolia",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Mentha rotundifolia is a close relative of wild pennyroyal, but its specific mention in Roman texts is less certain, making this identification less confident."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|nep": {
+  "candidates": [
+   {
+    "name": "Nepeta cataria",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The plant 'nep' is likely Nepeta cataria (catnip), which is known for its effects against snake stings and its strong scent, matching the description of repelling serpents through smell or smoke."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cummin": {
+  "candidates": [
+   {
+    "name": "Cuminum cyminum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of cummin as used in lozenges, vinegar, and wine, along with its medicinal properties for nosebleeds, eye issues, and urinary incontinence, matches the modern cumin (Cuminum cyminum)."
+   },
+   {
+    "name": "Cuminum sativum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While Cuminum sativum is a close relative of cumin, the text specifically refers to cummin, which is more commonly associated with Cuminum cyminum. However, the confusion between the two species is possible in ancient texts."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Fennel (Foeniculum vulgare) is sometimes confused with cumin in ancient texts due to similar aromatic properties, but the specific medicinal uses described here align more closely with cumin."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|ammi": {
+  "candidates": [
+   {
+    "name": "Tragopogon porrifolius",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'ammi' as a plant resembling cummin (Cuminum cyminum), and Tragopogon porrifolius is known in the Roman world as 'ammi' and is closely related to cummin."
+   },
+   {
+    "name": "Cuminum cyminum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Pliny mentions 'ammi' as possibly being the same as the Æthiopian cummin, which is likely Cuminum cyminum, though the text is ambiguous."
+   },
+   {
+    "name": "Tragopogon dubius",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Tragopogon dubius is a close relative of Tragopogon porrifolius and may have been confused with 'ammi' in ancient texts, but it is less likely to have been known in the Roman world."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|caper": {
+  "candidates": [
+   {
+    "name": "Capparis spinosa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'caper' as a plant with medicinal uses, including for tooth-ache and as a remedy for lumbago and paralysis, which aligns with the known uses of Capparis spinosa."
+   },
+   {
+    "name": "Capparis decidua",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While Capparis decidua is a related species, Pliny's description focuses on the caper used in the Roman world, which is more likely to be Capparis spinosa."
+   },
+   {
+    "name": "Capparis gerrardii",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Capparis gerrardii is a less well-known species and not historically documented in the Roman world, making it a less likely candidate based on Pliny's context."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|ligusticum": {
+  "candidates": [
+   {
+    "name": "Angelica archangelica",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to ligusticum as a remedy for the stomach, convulsions, and flatulency, which aligns with the traditional uses of Angelica archangelica."
+   },
+   {
+    "name": "Ligusticum porteri",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Ligusticum is a genus name used by Pliny, and Ligusticum porteri is a species within this genus known in the Roman world for similar medicinal properties."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Foeniculum vulgare (fennel) is sometimes confused with ligusticum due to similar uses, but it is not the same plant as described by Pliny."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cunila bubula": {
+  "candidates": [
+   {
+    "name": "Mentha longifolia",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Pliny refers to 'cunila bubula' as having a seed similar to pennyroyal, which is a common characteristic of Mentha longifolia, also known as 'cunila' in ancient texts."
+   },
+   {
+    "name": "Pulegium ajoides",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Pulegium ajoides, also known as 'cunila,' has a similar seed to pennyroyal, as noted by Pliny, and is a possible candidate for 'cunila bubula.'"
+   },
+   {
+    "name": "Mentha pulegium",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "Mentha pulegium, or pennyroyal, is mentioned by Pliny as having a similar seed to 'cunila bubula,' suggesting a possible identification."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cunila gallinacea origanum": {
+  "candidates": [
+   {
+    "name": "Origanum vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'origanum' as a known plant in the Roman world, and 'Origanum vulgare' is the common oregano known in antiquity, matching the description and usage."
+   },
+   {
+    "name": "Origanum heracleoticum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The Greek name 'Heracleotic origanum' suggests a specific variety, which may correspond to 'Origanum heracleoticum,' though this species is less commonly referenced in classical texts."
+   },
+   {
+    "name": "Thymus vulgaris",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While 'thymus' is sometimes confused with 'origanum' in ancient texts, the specific name 'cunila gallinacea' does not directly correspond to 'Thymus vulgaris,' and the connection is tenuous."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cunilago": {
+  "candidates": [
+   {
+    "name": "Tanacetum cuneatum",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "The description of a fœtid smell, ligneous root, and rough leaf matches some species of Tanacetum, and the name 'cunilago' may be related to its common name."
+   },
+   {
+    "name": "Artemisia cuneata",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Artemisia species often have a strong smell, and some have rough leaves, which could align with the description of 'cunilago.'"
+   },
+   {
+    "name": "Thymus cuneatus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Thymus species have aromatic properties, the description of a ligneous root and rough leaf is less consistent with typical thyme plants."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|soft cunila libanotis": {
+  "candidates": [
+   {
+    "name": "Cunila arvensis",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of 'soft cunila' with velvety leaves, thorny branches, and a honey-like smell matches Cunila arvensis, a plant known in the Roman world."
+   },
+   {
+    "name": "Libanotis chamaecyparissus",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The name 'libanotis' is derived from its resemblance to frankincense, which aligns with Libanotis chamaecyparissus, though its use in the Roman world is less documented."
+   },
+   {
+    "name": "Commiphora myrrha",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While frankincense (Commiphora myrrha) is mentioned in the name 'libanotis,' the plant described is not frankincense itself but a different species with a similar scent."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|mountain cunila": {
+  "candidates": [
+   {
+    "name": "Thymus serpyllum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes mountain cunila as similar to wild thyme in appearance and efficacious for serpent stings, which aligns with Thymus serpyllum, a common wild thyme known in the Roman world."
+   },
+   {
+    "name": "Thymus vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Thymus vulgaris, common thyme, is also known as cunila in some contexts and is used medicinally, though Pliny specifically mentions similarity to wild thyme, which may suggest a different species."
+   },
+   {
+    "name": "Satureja hortensis",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Satureja hortensis, garden savory, is sometimes referred to as cunila and has medicinal uses, but it is not clearly described as similar to wild thyme in Pliny's text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cunila mountain cunila": {
+  "candidates": [
+   {
+    "name": "Thymus serpyllum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes mountain cunila as similar to wild thyme in appearance and efficacious for serpent stings, matching the characteristics of Thymus serpyllum."
+   },
+   {
+    "name": "Thymus vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Thymus vulgaris is a cultivated thyme species known in the Roman world, and Pliny's reference to cultivated cunila may align with this species."
+   },
+   {
+    "name": "Origanum vulgare",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Origanum vulgare (wild marjoram) is sometimes confused with thyme and may have been referred to as cunila in ancient texts, but the description of serpent stings is more specific to thyme species."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|piperitis": {
+  "candidates": [
+   {
+    "name": "Piper nigrum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'piperitis' as a remedy for epilepsy, which matches the use of black pepper (Piper nigrum) in ancient medicine."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|origanum": {
+  "candidates": [
+   {
+    "name": "Origanum vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of origanum used for repelling serpents and treating wounds matches the traditional uses of Origanum vulgare, commonly known as oregano, which was known in the Roman world."
+   },
+   {
+    "name": "Origanum majorana",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Majorana, or sweet marjoram, is closely related to origanum and was also used in similar ways, though the specific reference to 'onitis' may point more directly to O. vulgare."
+   },
+   {
+    "name": "Origanum dictamnus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Dictamnus is a different genus, though it is sometimes confused with origanum in historical texts. Its use in remedies is less directly supported by the given text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|heracleotic origanum": {
+  "candidates": [
+   {
+    "name": "Origanum vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description matches common uses of oregano, and the name 'onitis' is a known Latin name for Origanum vulgare."
+   },
+   {
+    "name": "Origanum majorana",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Majorana is sometimes referred to as 'onitis' in ancient texts, and it shares similar medicinal uses described by Pliny."
+   },
+   {
+    "name": "Origanum dictamnus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Dictamnus is less commonly referred to as 'onitis' and its uses are not as clearly aligned with the text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|sacopenium": {
+  "candidates": [
+   {
+    "name": "Pulsatilla vulgaris",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Pulsatilla vulgaris, known as 'sacopenium' in Pliny's text, is a plant used for respiratory and nervous system ailments, matching the described medicinal uses."
+   },
+   {
+    "name": "Anemone nemorosa",
+    "llm_rank": 2,
+    "confidence": "low",
+    "reason": "Anemone nemorosa, sometimes referred to as 'sacopenium' in ancient texts, is a spring-flowering plant with medicinal properties, though its use in Roman times is less certain."
+   },
+   {
+    "name": "Cyclamen europaeum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Cyclamen europaeum, also called 'sacopenium' in some sources, is a plant with medicinal uses, though its association with the name in Pliny's text is not well-documented."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|white poppy": {
+  "candidates": [
+   {
+    "name": "Papaver rhoeas",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to the 'white poppy' and describes its use as a soporific, which matches Papaver rhoeas, known in the Roman world and used for similar purposes."
+   },
+   {
+    "name": "Papaver bracteatum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This species is also known as the 'white poppy' in some historical contexts and shares similar medicinal uses described by Pliny."
+   },
+   {
+    "name": "Papaver alpinum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While it is a white-flowered poppy, it is less likely to have been known in the Roman world and its use as a soporific is not specifically mentioned in the text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|black poppy": {
+  "candidates": [
+   {
+    "name": "Papaver somniferum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to the black poppy as a source of soporific properties and mentions its use in remedies, which aligns with the opium-producing Papaver somniferum."
+   },
+   {
+    "name": "Papaver rhoeas",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Although primarily known as the 'Flanders poppy,' it is a wild poppy with similar characteristics to the black poppy described by Pliny, though it is more commonly associated with the white poppy."
+   },
+   {
+    "name": "Papaver setigerum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "This species is less well-documented in ancient texts, and while it is a poppy with dark flowers, there is less direct evidence linking it to the specific descriptions in Pliny's text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|poppy": {
+  "candidates": [
+   {
+    "name": "Papaver somniferum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes the white and black poppy, which are varieties of the opium poppy (Papaver somniferum), and mentions the use of its juice and seeds for soporific effects, which aligns with the plant's known properties in the Roman world."
+   },
+   {
+    "name": "Papaver rhoeas",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The white poppy described by Pliny may refer to Papaver rhoeas, which is a wild poppy with white flowers, though it is less commonly associated with opium production compared to Papaver somniferum."
+   },
+   {
+    "name": "Papaver setigerum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "The black poppy mentioned by Pliny could potentially refer to Papaver setigerum, but this species is not well-documented in ancient texts and is more commonly associated with ornamental use rather than medicinal applications."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild poppy called ceratitis": {
+  "candidates": [
+   {
+    "name": "Papaver rhoeas",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Pliny describes a wild poppy with a black color, thick root, and small seeds, which aligns with Papaver rhoeas, though the specific reference to 'ceratitis' is not directly matched."
+   },
+   {
+    "name": "Papaver bracteatum",
+    "llm_rank": 2,
+    "confidence": "low",
+    "reason": "This species is less commonly referenced in ancient texts, and while it is a wild poppy, the specific descriptions and names given by Pliny do not clearly match."
+   },
+   {
+    "name": "Papaver argemone",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Although it is a wild poppy, the descriptions of its color and habitat do not fully align with the text, and it is not traditionally associated with the name 'ceratitis' in ancient sources."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|tithymalon mecon paralion": {
+  "candidates": [
+   {
+    "name": "Papaver rhoeas",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of a plant with white leaves resembling flax and a bean-sized head matches the common poppy (Papaver rhoeas), which was known in the Roman world and had various names including tithymalon and paralion."
+   },
+   {
+    "name": "Papaver bracteatum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This species, also known as the mecon, is a poppy with similar characteristics and was used medicinally in ancient times, aligning with the descriptions of tithymalon and mecon."
+   },
+   {
+    "name": "Papaver somniferum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While opium poppy (Papaver somniferum) is a poppy species with medicinal uses, it is less likely to be referred to as tithymalon or paralion in Roman texts, as these names are more commonly associated with Papaver rhoeas."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|lapathum": {
+  "candidates": [
+   {
+    "name": "Achillea millefolium",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of 'garden lapathum' and its use in liniments for eye defluxions aligns with the properties of yarrow (Achillea millefolium), which was known in the Roman world and had similar medicinal uses."
+   },
+   {
+    "name": "Rumex acetosa",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The plant is referred to as 'rumex' by some, and Rumex species are known for their use in treating sores and stings, which matches the description of lapathum's medicinal properties."
+   },
+   {
+    "name": "Oxalis tetraphylla",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "The plant is called 'oxalis' by some, and Oxalis species have similar leaf structures and are used medicinally, though the connection is less direct and requires more contextual evidence."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild lapathum or oxalis": {
+  "candidates": [
+   {
+    "name": "Oxalis corniculata",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of pointed leaves, white beet color, and small root matches Oxalis corniculata, which was known in the Roman world and referred to as 'oxalis' by Pliny."
+   },
+   {
+    "name": "Rumex acetosa",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Pliny mentions the plant being called 'rumex,' which is a common name for sorrel (Rumex acetosa), and the description of the plant aligns with some characteristics of sorrel."
+   },
+   {
+    "name": "Achillea millefolium",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While 'lapathum' is a genus that includes yarrow (Achillea millefolium), the description of the plant does not clearly match yarrow, which has different leaf shapes and uses."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hippolapathum": {
+  "candidates": [
+   {
+    "name": "Rumex crispus",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Pliny refers to hippolapathum in the context of a plant used for treating malformed nails and dysentery, which aligns with the medicinal uses of Rumex crispus, known in the Roman world."
+   },
+   {
+    "name": "Oxalis corniculata",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Oxalis species, including Oxalis corniculata, were known in the Roman world and had medicinal uses, which could correspond to the description of hippolapathum."
+   },
+   {
+    "name": "Lapathum palustre",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Lapathum palustre is a possible candidate due to its association with the term 'lapathum' in Pliny's text, but its specific use for the described ailments is less certain."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|oxylapathum": {
+  "candidates": [
+   {
+    "name": "Oxalis corniculata",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Oxalis species are commonly referred to as 'lapathum' in ancient texts, and Oxalis corniculata is known for its use in treating respiratory issues, including blood spitting, which matches the description."
+   },
+   {
+    "name": "Oxalis tetraphylla",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This species is also known as 'oxylapathum' in some historical contexts and has been used for similar medicinal purposes, though less documented in Roman sources."
+   },
+   {
+    "name": "Rumex acetosa",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Rumex is sometimes grouped with lapathum in ancient texts, the specific mention of 'oxylapathum' and the treatment of blood spitting suggests a different genus, making Rumex a less likely candidate."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|bulapathon": {
+  "candidates": [
+   {
+    "name": "Artemisia vulgaris",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "The term 'bulapathon' may refer to a plant with a long root, which aligns with descriptions of Artemisia vulgaris, known for its medicinal use in the Roman world."
+   },
+   {
+    "name": "Lapathum palustre",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The name 'bulapathon' could be a variant or local name for Lapathum palustre, which is mentioned in the context of cultivated plants with long roots."
+   },
+   {
+    "name": "Thlaspi arvense",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Thlaspi arvense is a plant with a long root, but it is not commonly referenced in Roman texts, making its connection to 'bulapathon' less certain."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|marrubium": {
+  "candidates": [
+   {
+    "name": "Marrubium vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The name 'marrubium' is directly used by Pliny, and it is known to correspond to Marrubium vulgare, a plant used in ancient medicine."
+   },
+   {
+    "name": "Echium italicum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Some sources suggest that 'marrubium' might refer to Echium italicum, which was also used medicinally in the Roman world."
+   },
+   {
+    "name": "Verbascum thapsus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Verbascum species were sometimes confused with marrubium due to similar medicinal uses, but the name 'marrubium' is more specifically associated with Marrubium vulgare."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|horehound": {
+  "candidates": [
+   {
+    "name": "Marrubium vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'horehound' as a plant with medicinal uses, including treating swellings, eye problems, and ailments of the male organs, which aligns with the known properties of Marrubium vulgare."
+   },
+   {
+    "name": "Leonurus cardiaca",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Leonurus cardiaca, also known as 'horehound' in some historical contexts, has similar medicinal uses, including treating spasms and eye conditions, which matches some of Pliny's descriptions."
+   },
+   {
+    "name": "Salvia sclarea",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Salvia sclarea, or clary sage, is sometimes called 'horehound' in older texts, but its primary uses and habitat do not fully match the descriptions in Pliny's text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|sisymbrium thymbraeum": {
+  "candidates": [
+   {
+    "name": "Sisymbrium officinale",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of a wild plant called 'sisymbrium' or 'thymbræum' that does not grow beyond a foot in height matches Sisymbrium officinale, which was known in the Roman world for its medicinal uses."
+   },
+   {
+    "name": "Thymbrum vulgare",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The name 'thymbræum' may refer to Thymbrum vulgare, a plant with a similar name and possibly similar uses, though it is less well-documented in Roman texts."
+   },
+   {
+    "name": "Thymus serpyllum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Thymus serpyllum (wild thyme) has a similar name and was used medicinally, the description of a plant not exceeding a foot in height does not clearly match it."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|flax": {
+  "candidates": [
+   {
+    "name": "Linum usitatissimum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'linseed' which is the common name for Linum usitatissimum, a plant known in the Roman world for its seeds used in medicine and as a source of flax."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|meum": {
+  "candidates": [
+   {
+    "name": "Achillea millefolium",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'meum' as a plant used in remedies, and 'Achillea millefolium' (common yarrow) is known in the Roman world and has medicinal uses consistent with the description."
+   },
+   {
+    "name": "Artemisia vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Artemisia vulgaris (mugwort) was known in the Roman world and had medicinal uses, though the specific reference to 'meum' is more closely associated with yarrow."
+   },
+   {
+    "name": "Thymus vulgaris",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Thymus vulgaris (thyme) was known in the Roman world and had medicinal uses, but the name 'meum' is more specifically associated with yarrow in the text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hippomarathron": {
+  "candidates": [
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "Pliny refers to hippomarathron as a wild variety of fennel, which aligns with Foeniculum vulgare, though the specific variety is uncertain."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This variety of fennel is known for its acrid taste and wild growth, matching the description of hippomarathron in some sources."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "This variety is also noted for its wild growth and acrid properties, which could correspond to the hippomarathron described by Pliny."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|fennel giant": {
+  "candidates": [
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Fennel (Foeniculum vulgare) is known in the Roman world and matches the description of a plant with seeds similar to dill, used as a purgative and for uterine ailments."
+   },
+   {
+    "name": "Foeniculum dulce",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Foeniculum dulce is a variant of fennel, also known in antiquity, and could be the 'fennel-giant' due to its similar properties and use in remedies."
+   },
+   {
+    "name": "Foeniculum sylvestre",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Foeniculum sylvestre is a wild fennel species, but its use in Roman medicine is less documented compared to Foeniculum vulgare, making it a less likely candidate."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|althaea": {
+  "candidates": [
+   {
+    "name": "Althaea officinalis",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'althæa' as a mallow with large leaves and white roots, used for convulsions and ruptures, which matches the description of Althaea officinalis, also known as marshmallow."
+   },
+   {
+    "name": "Althaea cannabina",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Althaea cannabina, another species of mallow, also has white roots and is used medicinally, though it is less commonly referenced in ancient texts compared to A. officinalis."
+   },
+   {
+    "name": "Althaea hirsuta",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Althaea hirsuta has similar characteristics to other mallows, but it is not specifically mentioned in the text, and its use in ancient Roman medicine is less documented."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|anise": {
+  "candidates": [
+   {
+    "name": "Pimpinella anisum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to anise as a plant used in remedies for various ailments, including scorpion stings, coughs, and digestive issues, which aligns with the modern understanding of Pimpinella anisum."
+   },
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While fennel is sometimes confused with anise, the text specifically mentions anise in the context of remedies and its use with other herbs like dill, which is more characteristic of anise than fennel."
+   },
+   {
+    "name": "Cuminum cyminum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Cumin is sometimes mistaken for anise, but the text describes anise as having a more aromatic and medicinal profile, which is more consistent with Pimpinella anisum than with cumin."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|blite": {
+  "candidates": [
+   {
+    "name": "Cichorium intybus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Blite is commonly identified with chicory, which is described as having an inert nature and no strong flavor, matching the description in Pliny's text."
+   },
+   {
+    "name": "Lactuca serriola",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Lactuca species, including L. serriola, are sometimes referred to as blite in ancient texts and share similar characteristics of being mild in flavor."
+   },
+   {
+    "name": "Atriplex hortensis",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Atriplex species, including A. hortensis, are sometimes called blite in ancient sources, but they are more commonly associated with a salty taste, which may not fully match the description."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|colocynthis": {
+  "candidates": [
+   {
+    "name": "Citrullus colocynthis",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of a wild gourd with seeds and the mention of its coloration align with the modern species Citrullus colocynthis, known in the Roman world as colocynthis."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|coriander": {
+  "candidates": [
+   {
+    "name": "Coriandrum sativum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of coriander as a cultivated plant used in remedies, food preservation, and as a seed matches the modern species Coriandrum sativum, which was known and used in the Roman world."
+   },
+   {
+    "name": "Coriandrum sativum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The text refers to coriander as a plant used in potions and for expelling worms, which aligns with the medicinal uses of Coriandrum sativum."
+   },
+   {
+    "name": "Coriandrum sativum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While the text describes coriander as a plant used in food preservation, the specific mention of its use with pomegranate juice and oil is not uniquely diagnostic for identification."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|cunila": {
+  "candidates": [
+   {
+    "name": "Thymus serpyllum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes mountain cunila as similar to wild thyme in appearance and efficacious for serpent stings, matching the characteristics of Thymus serpyllum."
+   },
+   {
+    "name": "Origanum vulgare",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Origanum vulgare (common oregano) is a close relative of thyme and was used medicinally in the Roman world, though Pliny's description is more aligned with thyme."
+   },
+   {
+    "name": "Lavandula angustifolia",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While lavender was known in the Roman world and used medicinally, Pliny's description of mountain cunila as resembling wild thyme is more consistent with thyme or oregano."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|dill": {
+  "candidates": [
+   {
+    "name": "Anethum graveolens",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to dill as a carminative and for treating stomach gripings and looseness of the bowels, which aligns with the medicinal uses of Anethum graveolens."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|dittander": {
+  "candidates": [
+   {
+    "name": "Silybum marianum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Dittander is a Latin name for Silybum marianum, known in the Roman world for its caustic properties and medicinal use."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|endive": {
+  "candidates": [
+   {
+    "name": "Cichorium intybus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'cichorium' as the name for wild endive in Egypt, which matches the modern scientific name for wild endive."
+   },
+   {
+    "name": "Cichorium endivia",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The cultivated endive is mentioned as 'seris' and is smaller with more veined leaves, which aligns with the modern classification of Cichorium endivia."
+   },
+   {
+    "name": "Chicorium lactucas",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "This is an older name for chicory, which is related but not directly confirmed by Pliny's text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|fennel": {
+  "candidates": [
+   {
+    "name": "Foeniculum vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes fennel as having a large leaf, acrid taste, and medicinal uses for stings and vision, which align with Foeniculum vulgare, a well-known plant in the Roman world."
+   },
+   {
+    "name": "Foeniculum dulce",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The cultivated fennel mentioned by Pliny may correspond to Foeniculum dulce, a variety known for its medicinal and culinary uses, though it is less commonly referenced in ancient texts."
+   },
+   {
+    "name": "Foeniculum ramosum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Foeniculum ramosum is a less common variety of fennel, and while it shares some characteristics with the descriptions, it is not as clearly referenced in Pliny's text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|gingidion": {
+  "candidates": [
+   {
+    "name": "Cuminum cyminum",
+    "llm_rank": 1,
+    "confidence": "medium",
+    "reason": "The description of a small, bitter vegetable similar to staphylinos (likely Cuminum cyminum) and its use as a remedy aligns with cumin, which was known in the Roman world."
+   },
+   {
+    "name": "Ferula assafoetida",
+    "llm_rank": 2,
+    "confidence": "low",
+    "reason": "Ferula species can have a bitter taste and are used medicinally, but the specific reference to 'gingidion' and its similarity to staphylinos is less clear."
+   },
+   {
+    "name": "Tragopogon porrifolius",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "Tragopogon porrifolius (salsify) is a bitter vegetable with medicinal uses and could be confused with other similar plants, though the connection to 'gingidion' is not definitive."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|gith": {
+  "candidates": [
+   {
+    "name": "Sanguisorba officinalis",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'gith' as having a pungent odor and dark appearance, which matches the description of Sanguisorba officinalis, known in ancient times for its medicinal properties and dark, pungent roots."
+   },
+   {
+    "name": "Rumex acetosa",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Rumex acetosa (common sorrel) has a pungent odor and dark leaves, which could be confused with 'gith,' though it is more commonly associated with other names."
+   },
+   {
+    "name": "Polygonum orientale",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Polygonum orientale has some dark leaves and may have a pungent odor, but it is less likely to be referred to as 'gith' in ancient texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hartwort": {
+  "candidates": [
+   {
+    "name": "Achillea millefolium",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Hartwort is commonly identified with Achillea millefolium, which was known in the Roman world and used for similar medicinal purposes as described."
+   },
+   {
+    "name": "Artemisia absinthium",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Artemisia species, including A. absinthium, were known in the Roman world and had medicinal uses that could align with the description of hartwort, though the specific identification is less certain."
+   },
+   {
+    "name": "Tanacetum vulgare",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "Tanacetum vulgare, also known as common tansy, was used medicinally in the Roman world and could be confused with hartwort based on its aromatic properties and uses."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|hemp": {
+  "candidates": [
+   {
+    "name": "Cannabis sativa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of hemp growing in forests with blacker and rougher leaves, along with its use in remedies and the mention of hempseed causing impotence, aligns with Cannabis sativa."
+   },
+   {
+    "name": "Cannabis indica",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While Cannabis indica is not explicitly mentioned, it shares the same genus and some medicinal uses described by Pliny, though the specific reference to hemp growing in forests is more characteristic of Cannabis sativa."
+   },
+   {
+    "name": "Cannabis ruderalis",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Cannabis ruderalis is a less well-known species and not typically associated with the medicinal uses or descriptions provided by Pliny, making it a less likely candidate."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|lettuce": {
+  "candidates": [
+   {
+    "name": "Lactuca sativa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'cultivated lettuce' and describes its medicinal properties, including promoting sleep, cooling the body, and treating various ailments, which align with Lactuca sativa."
+   },
+   {
+    "name": "Lactuca serriola",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Pliny mentions 'goat-lettuce' which may correspond to Lactuca serriola, a wild lettuce species known in the Roman world and having similar properties."
+   },
+   {
+    "name": "Lactuca virosa",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Lactuca virosa is another wild lettuce species, the text does not provide enough specific details to confidently associate it with 'goat-lettuce' or the other medicinal uses described."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|mallow": {
+  "candidates": [
+   {
+    "name": "Althaea officinalis",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'althæa' as a wild mallow with large leaves and white roots, which matches the description of Althaea officinalis, a well-known medicinal plant in the Roman world."
+   },
+   {
+    "name": "Malva sylvestris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The term 'malope' is associated with a cultivated mallow with large leaves, which aligns with Malva sylvestris, a common wild mallow in the Mediterranean region."
+   },
+   {
+    "name": "Malva neglecta",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While 'malache' is mentioned as a mallow that relaxes the bowels, it is less clearly identified, and Malva neglecta is a possible candidate due to its medicinal uses, though not as well-documented in Roman texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|mint": {
+  "candidates": [
+   {
+    "name": "Mentha spicata",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes the use of mint for its aromatic properties, its role in food, and its medicinal applications, which align with the characteristics of Mentha spicata, commonly known as spearmint."
+   },
+   {
+    "name": "Mentha longifolia",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Mentha longifolia, or catnip, is also a type of mint and shares similar properties described by Pliny, though it is less commonly used in culinary contexts in the Roman world."
+   },
+   {
+    "name": "Mentha viridis",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Mentha viridis, or water mint, is another species of mint, but its specific uses and descriptions in the Roman context are less clear, making its identification less certain based on the text."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|mustard": {
+  "candidates": [
+   {
+    "name": "Sinapis alba",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes mustard with properties consistent with Sinapis alba, including its use in remedies, its pungency, and its preparation with vinegar and other substances."
+   },
+   {
+    "name": "Sinapis nigra",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Sinapis nigra is another mustard species known in the Roman world, and its use in similar remedies and preparations aligns with the descriptions, though it is less explicitly mentioned than Sinapis alba."
+   },
+   {
+    "name": "Brassica juncea",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Brassica juncea is a mustard species used in traditional medicine, but it is less likely to be the primary species referred to by Pliny, as it was more commonly used in later periods and not as widely cultivated in the Roman Mediterranean."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|nasturtium": {
+  "candidates": [
+   {
+    "name": "Tropaeolum majus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'nasturtium' with properties such as antiaphrodisiac, sharpening the senses, and repelling serpents, which align with Tropaeolum majus, known in the Roman world for these uses."
+   },
+   {
+    "name": "Nasturtium officinale",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The name 'nasturtium' is also associated with Nasturtium officinale, which has similar medicinal properties described by Pliny, though it is less commonly referenced in ancient texts."
+   },
+   {
+    "name": "Sinapis alba",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Sinapis alba (white mustard) is sometimes confused with nasturtium, it is not typically referred to by the same name in Pliny's text, and its properties differ slightly."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|ocimum": {
+  "candidates": [
+   {
+    "name": "Ocimum basilicum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of ocimum aligns with basil, which was known in the Roman world and used for culinary and medicinal purposes, including its association with scorpion stings and its use in recipes."
+   },
+   {
+    "name": "Ocimum sanctum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Holy basil (Ocimum sanctum) is also known as ocimum in some contexts and has similar medicinal uses, though it was less commonly referenced in Roman texts compared to basil."
+   },
+   {
+    "name": "Ocimum americanum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "This species, also known as wild basil, is less likely to be the one referenced by Pliny, as it was not widely known in the Roman world."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|onitis or prasion": {
+  "candidates": [
+   {
+    "name": "Origanum vulgare",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of Onitis or Prasion matching Origanum vulgare, which is known in the Roman world and used for digestive issues."
+   },
+   {
+    "name": "Thymus vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Thymus vulgaris is sometimes referred to as prasion in ancient texts and has similar medicinal uses."
+   },
+   {
+    "name": "Salvia sclarea",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Salvia sclarea, also known as clary sage, has some medicinal uses that could overlap with the description, but it is less likely to be the specific plant referred to as Onitis or Prasion."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|orage": {
+  "candidates": [
+   {
+    "name": "Ruta chalestrum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The plant 'orage' is used for dyeing hair and treating jaundice, which matches Ruta chalestrum, known in the Roman world for these uses."
+   },
+   {
+    "name": "Ruta graveolens",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Ruta graveolens is also known for hair dyeing and medicinal uses, and its common name in Latin could be confused with 'orage'."
+   },
+   {
+    "name": "Achillea millefolium",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Achillea millefolium has medicinal uses, it is not traditionally associated with hair dyeing or the name 'orage' in Roman texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|pennyroyal": {
+  "candidates": [
+   {
+    "name": "Mentha pulegium",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pennyroyal is described as having properties similar to mint, and the plant is used for treating fainting fits, headaches, and as a preventive for cold and heat, which aligns with Mentha pulegium."
+   },
+   {
+    "name": "Petroselinum crispum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While not a direct match, parsley (Petroselinum crispum) is sometimes confused with pennyroyal in historical texts, and both are used for similar medicinal purposes."
+   },
+   {
+    "name": "Mentha longifolia",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Mentha longifolia (wild mint) shares some properties with pennyroyal, but the specific references to its use in treating fainting and headaches are more closely associated with Mentha pulegium."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|purslain": {
+  "candidates": [
+   {
+    "name": "Sinapis alba",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Purslain is commonly identified with Sinapis alba, a mustard plant known in the Roman world, and the description of its use for mouth ulcers and tooth-ache matches."
+   },
+   {
+    "name": "Thlaspi arvense",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Thlaspi arvense, also known as purslain, is a close relative of Sinapis alba and matches the description of a wild plant used for similar medicinal purposes."
+   },
+   {
+    "name": "Capsella bursa-pastoris",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Capsella bursa-pastoris (shepherd's purse) is a plant known in ancient times and has some medicinal uses, it is not typically referred to as purslain in classical texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|radish": {
+  "candidates": [
+   {
+    "name": "Raphanus sativus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of radishes as purgative, diuretic, and useful for ailments like coughs, poisoning, and skin conditions matches Raphanus sativus, the common radish, which was known and used in the Roman world."
+   },
+   {
+    "name": "Raphanus raphanistrum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Wild radishes, such as Raphanus raphanistrum, were also known in the Roman world and could have been used similarly, though the text specifically refers to cultivated radishes."
+   },
+   {
+    "name": "Raphanus sativus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "The mention of 'long radish' suggests a specific variety, possibly Raphanus sativus var. longipetalus, but this variety is less well-documented in ancient texts."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|rhoeas poppy": {
+  "candidates": [
+   {
+    "name": "Papaver rhoeas",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The name 'rhœas' directly corresponds to the scientific name Papaver rhoeas, and the description matches its wild growth habit and use in ancient remedies."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|rocket": {
+  "candidates": [
+   {
+    "name": "Eruca sativa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to rocket as 'euzomon' in Greek, which matches the common name for Eruca sativa, and describes its use in food, as a remedy for scorpion venom, and as a treatment for eye conditions."
+   },
+   {
+    "name": "Sinapis alba",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Sinapis alba, also known as white mustard, is sometimes referred to as rocket in historical texts, and shares similar medicinal uses described by Pliny."
+   },
+   {
+    "name": "Brassica oleracea",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Brassica oleracea var. botrytis (cauliflower) is a member of the Brassicaceae family and sometimes confused with rocket, it is not typically called rocket and lacks the specific medicinal uses described."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|rue": {
+  "candidates": [
+   {
+    "name": "Ruta chamaemorus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to rue as a medicinal plant with multiple uses, including antidotes, treatment of bites and stings, and effects on the eyes, which aligns with Ruta chamaemorus, known in the Roman world."
+   },
+   {
+    "name": "Ruta graveolens",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Ruta graveolens is another species of rue known in antiquity and shares many of the medicinal properties described by Pliny, though the text does not specify which species."
+   },
+   {
+    "name": "Petroselinum crispum",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Petroselinum crispum (parsley) is sometimes confused with rue, but it is not typically referred to as rue in ancient texts and lacks the specific medicinal properties described."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|seris": {
+  "candidates": [
+   {
+    "name": "Cichorium intybus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Seris is described as resembling lettuce, which aligns with chicory (Cichorium intybus), a plant known in the Roman world and used medicinally."
+   },
+   {
+    "name": "Lactuca serriola",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Seris is compared to lettuce, and Lactuca serriola (wild lettuce) is a close relative of cultivated lettuce, though less commonly referenced in Roman texts."
+   },
+   {
+    "name": "Atriplex hortensis",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Atriplex species are sometimes called 'seris' in ancient texts, but they are not typically compared to lettuce, which is a key detail in Pliny's description."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|thistle or scolymos": {
+  "candidates": [
+   {
+    "name": "Cynara scolymus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to the plant as 'scolymos' and describes it as having a purple blossom that turns white, which matches the description of Cynara scolymus, commonly known as the artichoke or scorzonera."
+   },
+   {
+    "name": "Cynara cardunculus",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The plant is described as having prickles and a thorny head, which could align with Cynara cardunculus, the cardoon, though the specific mention of 'scolymos' and the blossom color change is more closely associated with Cynara scolymus."
+   },
+   {
+    "name": "Scolymus prostratus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "The name 'scolymos' is directly mentioned by Pliny, and while Scolymus prostratus is a genus that includes some thistle-like plants, it is less commonly referenced in the Roman world compared to Cynara species."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|thyme": {
+  "candidates": [
+   {
+    "name": "Thymus serpyllum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'wild thyme' as 'serpyllum,' which matches the Latin name for wild thyme, and describes it as a creeping plant growing in rocky places."
+   },
+   {
+    "name": "Thymus vulgaris",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Pliny mentions 'cultivated thyme' which grows upright, matching the description of Thymus vulgaris, though the specific use for snake stings is more commonly associated with T. serpyllum."
+   },
+   {
+    "name": "Thymus praecox",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Thymus praecox is another wild thyme species, but it is less commonly referenced in ancient texts and does not have a clear Latin name mentioned by Pliny."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|tragoriganum": {
+  "candidates": [
+   {
+    "name": "Thymus serpyllum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes tragoriganum as resembling wild thyme, which is a common name for Thymus serpyllum, a species known in the Roman world."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|turnip": {
+  "candidates": [
+   {
+    "name": "Brassica rapa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes a turnip with angular stalks and a flower like that of anise, which matches Brassica rapa subsp. rapa, a species known in the Roman world for its medicinal uses."
+   },
+   {
+    "name": "Brassica napus",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The description of 'bunias' resembling radish and rape suggests Brassica napus, which was known in the Roman world and used for its medicinal properties."
+   },
+   {
+    "name": "Brassica oleracea",
+    "llm_rank": 3,
+    "confidence": "medium",
+    "reason": "This variety of Brassica oleracea is commonly referred to as turnip and matches the description of a plant used for menstrual and bladder issues, as noted by Pliny."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild asparagus": {
+  "candidates": [
+   {
+    "name": "Asparagus acutifolius",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'wild asparagus' and mentions it being called 'corruda,' 'libycum,' and 'orminus,' which aligns with the common names for Asparagus acutifolius in ancient times."
+   },
+   {
+    "name": "Asparagus officinalis",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While Asparagus officinalis is cultivated, Pliny's reference to 'wild asparagus' could include wild varieties of this species, though the specific wild form is more likely to be A. acutifolius."
+   },
+   {
+    "name": "Asparagus stipulatus",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Asparagus stipulatus is a less commonly referenced species in ancient texts, and there is no direct evidence linking it to the names or descriptions provided by Pliny."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild cabbage": {
+  "candidates": [
+   {
+    "name": "Brassica oleracea",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of leaves resembling cultivated cabbage, being white and downy, and the use in removing incrustations from boiling water align with the characteristics of wild cabbage, which is a variety of Brassica oleracea."
+   },
+   {
+    "name": "Brassica rapa",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This species is known to have similar leaf morphology and is sometimes referred to as wild cabbage, though the specific reference to the use in removing incrustations is more closely associated with Brassica oleracea."
+   },
+   {
+    "name": "Brassica nigra",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While Brassica nigra is a wild cabbage species, it is more commonly associated with black mustard and does not match the detailed description of leaves resembling cultivated cabbage."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild cummin": {
+  "candidates": [
+   {
+    "name": "Cuminum cyminum",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to wild cummin as a plant used in medicine, particularly for stomachic remedies, which aligns with the known medicinal uses of Cuminum cyminum, commonly known as cumin."
+   },
+   {
+    "name": "Cuminum granatum",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "Cuminum granatum, or Persian cumin, is a wild relative of cultivated cumin and shares similar medicinal properties, which could explain Pliny's reference to wild cummin."
+   },
+   {
+    "name": "Trachyspermum ammi",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Trachyspermum ammi, also known as ajwain, is a wild herb with similar medicinal uses, but it is less commonly associated with the term 'cummin' in the Roman context."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild endive": {
+  "candidates": [
+   {
+    "name": "Cichorium intybus",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny refers to 'wild endive' and 'cichorium,' which are known to correspond to Cichorium intybus, a plant known in the Roman world for its use as a vegetable and medicinal herb."
+   },
+   {
+    "name": "Cichorium endivia",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "The term 'wild endive' may refer to a wild form of Cichorium endivia, which is a cultivated variety of chicory, though its wild counterpart is less clearly defined in ancient texts."
+   },
+   {
+    "name": "Taraxacum officinale",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "While dandelion (Taraxacum officinale) has some similar uses and is a wild plant, it is not explicitly mentioned by Pliny in the context of 'wild endive' or 'cichorium.'"
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild mint": {
+  "candidates": [
+   {
+    "name": "Mentha longifolia",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "Pliny describes wild mint with leaves resembling ocimum and pennyroyal, which aligns with Mentha longifolia, known in the Roman world and used for similar medicinal purposes."
+   },
+   {
+    "name": "Mentha suaveolens",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "This species has a similar appearance and uses to wild mint described by Pliny, though it is less commonly referenced in ancient texts compared to Mentha longifolia."
+   },
+   {
+    "name": "Pulegium ajoides",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Pliny mentions the plant's resemblance to pennyroyal, which could refer to Pulegium ajoides, but the primary description points more towards a mint species."
+   }
+  ],
+  "status": "ok"
+ },
+ "qwen3:8b|plants-v1|wild rape": {
+  "candidates": [
+   {
+    "name": "Brassica rapa",
+    "llm_rank": 1,
+    "confidence": "high",
+    "reason": "The description of wild rape with a tufted top and white seed matches Brassica rapa, which was known in the Roman world and used for similar purposes."
+   },
+   {
+    "name": "Brassica napus",
+    "llm_rank": 2,
+    "confidence": "medium",
+    "reason": "While Brassica napus is also a wild rape species, the specific mention of a tufted top and white seed is more closely aligned with Brassica rapa."
+   },
+   {
+    "name": "Sinapis arvensis",
+    "llm_rank": 3,
+    "confidence": "low",
+    "reason": "Sinapis arvensis is a wild mustard species, but it is less likely to be referred to as 'wild rape' in Roman texts, which more commonly used Brassica species for such terms."
+   }
+  ],
+  "status": "ok"
+ }
+}

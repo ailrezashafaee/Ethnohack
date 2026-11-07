@@ -1,0 +1,211 @@
+{
+  "run": {
+    "date": "2026-11-07",
+    "claims_file": "data/02_claims/claims_1.jsonl",
+    "model": "qwen3:8b",
+    "llm_prompt_version": "plants-v1",
+    "llm_used": true,
+    "taxonomy": "WFO Plant List API (official), hackathon wrapper as fallback; WCVP via hackathon wrapper"
+  },
+  "headline": {
+    "plant_names": 115,
+    "plant_names_resolved": 114,
+    "plant_names_species_level": 106,
+    "claims": 1621,
+    "claims_kept": 1617,
+    "claims_kept_share": 0.998,
+    "claims_species_level_share": 0.918,
+    "plants_backed_by_1855_editors": 36
+  },
+  "by_status": {
+    "manual": {
+      "plants": 12,
+      "claims": 317
+    },
+    "footnote": {
+      "plants": 34,
+      "claims": 644
+    },
+    "footnote+llm": {
+      "plants": 2,
+      "claims": 18
+    },
+    "hedged_footnote": {
+      "plants": 0,
+      "claims": 0
+    },
+    "llm": {
+      "plants": 60,
+      "claims": 619
+    },
+    "disputed": {
+      "plants": 6,
+      "claims": 19
+    },
+    "unresolved": {
+      "plants": 1,
+      "claims": 4
+    }
+  },
+  "by_source": {
+    "llm": 60,
+    "footnote": 42,
+    "manual": 12
+  },
+  "wfo_match_types": {
+    "exact": 259,
+    "synonym": 35,
+    "genus": 29,
+    "fuzzy": 82,
+    "not_found": 10
+  },
+  "excluded_by_geography": 0,
+  "fuzzy_matches": [
+    "Alcea rosa -> Alcea rosea L.",
+    "Allium porrum -> Allium porrum L.",
+    "Althaea hirsuta -> Althaea hirsuta L.",
+    "Anemone nemorosa -> Anemone nemorosa Schangin",
+    "Anethum feniculum -> Anethum foeniculum L.",
+    "Anethum graveolens -> Anethum graveolens L.",
+    "Apium graveolens -> Apium graveolens L.",
+    "Arnica montana -> Arnica montana L.",
+    "Artemisia vulgaris -> Artemisia vulgaris Burm.f.",
+    "Asparagus stipulatus -> Asparagus stipularis Forssk.",
+    "Asparagus tenuifolius -> Asparagus tenuifolius Gilib.",
+    "Atriplex halimus -> Atriplex halimus R.Br.",
+    "Brassica arvensis -> Brassica arvensis L.",
+    "Brassica napo-brassica -> Brassica napus L.",
+    "Capparis decidua -> Capparis decidua (Forssk.) Edgew.",
+    "Cucumis colocynthus -> Cucumis colocynthis L.",
+    "Cucurbita argyrosperma -> Cucurbita argyrosperma C.Huber",
+    "Cucurbita maxima -> Cucurbita maxima Duchesne",
+    "Daucus gingidium -> Daucus gingidium L.",
+    "Echium italicum -> Echium italicum L.",
+    "Euphorbia lathyris -> Euphorbia lathyris L.",
+    "Ferula assafoetida -> Ferula asafoetida H.Karst.",
+    "Foeniculum vulgare -> Foeniculum vulgare Mill.",
+    "Inula helenium -> Inula helenium L.",
+    "Inula pulicaria -> Inula pulicaria L.",
+    "Lactuca virosa -> Lactuca virosa L.",
+    "Lavandula angustifolia -> Lavandula angustifolia Moench",
+    "Leontodon palustre -> Leontodon palustris Sm.",
+    "Lepidium sativum -> Lepidium sativum L.",
+    "Malva silvestris -> Malva sylvestris L.",
+    "Mentha longifolia -> Mentha longifolia (L.) Huds.",
+    "Mentha rotundifolia -> Mentha rotundifolia Sole",
+    "Mentha sativa -> Mentha sativa L.",
+    "Ocimum americanum -> Ocimum americanum L.",
+    "Origanum heracleoticum -> Origanum heracleoticum W.D.J.Koch",
+    "Panax quinquefolium -> Panax quinquefolius L.",
+    "Petroselinum crispum -> Petroselinum crispum (Mill.) Fuss",
+    "Petroselinum sativum -> Petroselinum sativum Hoffm.",
+    "Pimpinella anisum -> Pimpinella anisum L.",
+    "Seseli tortuosum -> Seseli tortuosum L.",
+    "Silybum marianum -> Silybum marianum (L.) Gaertn.",
+    "Tragopogon porrifolius -> Tragopogon porrifolius L."
+  ],
+  "manual_overrides": 12,
+  "top_plants": [
+    {
+      "plant": "rue",
+      "claims": 83,
+      "name": "Ruta graveolens L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "cabbage",
+      "claims": 78,
+      "name": "Brassica oleracea L.",
+      "status": "llm"
+    },
+    {
+      "plant": "anise",
+      "claims": 58,
+      "name": "Pimpinella anisum L.",
+      "status": "manual"
+    },
+    {
+      "plant": "garlic",
+      "claims": 57,
+      "name": "Allium sativum L.",
+      "status": "llm"
+    },
+    {
+      "plant": "mallow",
+      "claims": 53,
+      "name": "Malva sylvestris L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "radish",
+      "claims": 48,
+      "name": "Raphanus sativus L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "mustard",
+      "claims": 45,
+      "name": "Sinapis alba L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "lettuce",
+      "claims": 39,
+      "name": "Lactuca L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "purslain",
+      "claims": 38,
+      "name": "Portulaca oleracea L.",
+      "status": "manual"
+    },
+    {
+      "plant": "onion",
+      "claims": 37,
+      "name": "Allium cepa L.",
+      "status": "llm"
+    },
+    {
+      "plant": "mint",
+      "claims": 37,
+      "name": "Mentha × verticillata L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "ocimum",
+      "claims": 36,
+      "name": "Ocimum basilicum L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "nasturtium",
+      "claims": 34,
+      "name": "Lepidium sativum L.",
+      "status": "footnote"
+    },
+    {
+      "plant": "cutleek",
+      "claims": 32,
+      "name": "Allium ampeloprasum L.",
+      "status": "manual"
+    },
+    {
+      "plant": "colocynthis",
+      "claims": 31,
+      "name": "Citrullus colocynthis (L.) Schrad.",
+      "status": "footnote"
+    }
+  ],
+  "blind_sample": {
+    "size": 39,
+    "same_species_as_1855_editors": 0.33,
+    "same_genus_as_1855_editors": 0.54
+  },
+  "limitations": [
+    "1855 footnote identifications are historical hypotheses, not ground truth.",
+    "A footnote is only used when the plant is named in the same sentence before its marker.",
+    "The geography rule excludes plants native only outside the wider ancient world, so traded imports (e.g. from India) can be wrongly excluded.",
+    "Claims whose plant is unresolved are not checked against modern evidence."
+  ]
+}

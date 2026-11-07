@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-07",
+  "model": "qwen3:8b",
+  "prompt_version": "conditions-v2",
+  "terms": 929,
+  "claims": 1617,
+  "claims_searchable": 1525,
+  "claims_searchable_share": 0.943,
+  "claims_with_confirmed_mesh": 1393,
+  "terms_by_match": {
+    "manual": 32,
+    "exact": 425,
+    "unchecked": 121,
+    "close": 265,
+    "none": 80,
+    "broad": 6
+  },
+  "claims_by_match": {
+    "manual": 118,
+    "exact": 954,
+    "unchecked": 132,
+    "close": 315,
+    "none": 92,
+    "broad": 6
+  },
+  "terms_by_category": {
+    "symptom": 207,
+    "effect": 399,
+    "bite_or_poisoning": 86,
+    "disease": 158,
+    "other": 79
+  },
+  "top_terms": [
+    {
+      "term": "stings of serpents",
+      "claims": 29,
+      "mesh": "Snake Bites",
+      "match": "exact"
+    },
+    {
+      "term": "defluxions of the eyes",
+      "claims": 19,
+      "mesh": "Conjunctivitis",
+      "match": "exact"
+    },
+    {
+      "term": "dysentery",
+      "claims": 19,
+      "mesh": "Dysentery",
+      "match": "exact"
+    },
+    {
+      "term": "headache",
+      "claims": 18,
+      "mesh": "Headache",
+      "match": "exact"
+    },
+    {
+      "term": "dropsy",
+      "claims": 17,
+      "mesh": "Edema",
+      "match": "exact"
+    },
+    {
+      "term": "cough",
+      "claims": 17,
+      "mesh": "Cough",
+      "match": "exact"
+    },
+    {
+      "term": "toothache",
+      "claims": 16,
+      "mesh": "Toothache",
+      "match": "exact"
+    },
+    {
+      "term": "jaundice",
+      "claims": 16,
+      "mesh": "Jaundice",
+      "match": "exact"
+    },
+    {
+      "term": "aphrodisiac",
+      "claims": 14,
+      "mesh": "Aphrodisiacs",
+      "match": "exact"
+    },
+    {
+      "term": "diuretic",
+      "claims": 13,
+      "mesh": "Diuretics",
+      "match": "exact"
+    },
+    {
+      "term": "gout",
+      "claims": 12,
+      "mesh": "Gout",
+      "match": "exact"
+    },
+    {
+      "term": "convulsions",
+      "claims": 12,
+      "mesh": "Seizures",
+      "match": "exact"
+    },
+    {
+      "term": "stings of scorpions",
+      "claims": 12,
+      "mesh": "Scorpion Stings",
+      "match": "exact"
+    },
+    {
+      "term": "flatulency",
+      "claims": 11,
+      "mesh": "Flatulence",
+      "match": "exact"
+    },
+    {
+      "term": "wounds",
+      "claims": 11,
+      "mesh": "Wounds and Injuries",
+      "match": "manual"
+    },
+    {
+      "term": "epilepsy",
+      "claims": 10,
+      "mesh": "Epilepsy",
+      "match": "exact"
+    },
+    {
+      "term": "asthma",
+      "claims": 10,
+      "mesh": "Asthma",
+      "match": "exact"
+    },
+    {
+      "term": "erysipelas",
+      "claims": 10,
+      "mesh": "Erysipelas",
+      "match": "exact"
+    },
+    {
+      "term": "affections of the spleen",
+      "claims": 10,
+      "mesh": "Splenic Diseases",
+      "match": "manual"
+    },
+    {
+      "term": "lumbago",
+      "claims": 9,
+      "mesh": "Low Back Pain",
+      "match": "exact"
+    }
+  ],
+  "limitations": [
+    "Historical terms are mapped by an LLM from the term and up to 3 example sentences; the most frequent terms were reviewed by hand (review.csv).",
+    "'broad' mappings use a wider modern category, so evidence found for them is less specific.",
+    "'unchecked' terms are not exact MeSH descriptors; stage 5 searches them as free text.",
+    "Terms with no modern equivalent ('none') are not checked against modern evidence."
+  ]
+}

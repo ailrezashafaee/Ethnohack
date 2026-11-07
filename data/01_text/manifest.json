@@ -1,0 +1,19 @@
+{
+  "source": "Pliny the Elder, Natural History, tr. J. Bostock & H. T. Riley (1855)",
+  "urn": "urn:cts:latinLit:phi0978.phi001.perseus-eng1",
+  "file": "phi0978_phi001_perseus-eng1.xml",
+  "sha256": "26854c69168ec38bae0c0e2b54a9529dfc58438142f3ebd37d161cf7a9586dbe",
+  "licence": "CC BY-SA 3.0 US",
+  "attribution": "Perseus Digital Library, Tufts University",
+  "retrieved": "2026-11-04",
+  "books": [
+    "20"
+  ],
+  "counts": {
+    "chapters": 100,
+    "notes": 548,
+    "duplicate_notes": 13,
+    "sentences": 1004,
+    "stated_remedies": 1720
+  }
+}

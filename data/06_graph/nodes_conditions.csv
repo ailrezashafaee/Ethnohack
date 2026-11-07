@@ -1,0 +1,352 @@
+id,label,mesh_id,category
+D014786,Vision Disorders,D014786,effect
+D019226,Oral Ulcer,D019226,effect
+D001733,Bites and Stings,D001733,bite_or_poisoning
+D012883,Skin Ulcer,D012883,effect
+D003231,Conjunctivitis,D003231,symptom
+term:Genital Ulcers,Genital Ulcers,,symptom
+D003318,Corneal Opacity,D003318,symptom
+D003320,Corneal Ulcer,D003320,symptom
+D012909,Snake Bites,D012909,bite_or_poisoning
+D014456,Ulcer,D014456,effect
+D004427,Ear Diseases,D004427,disease
+D014012,Tinnitus,D014012,symptom
+D034381,Hearing Loss,D034381,symptom
+D013064,Speech Disorders,D013064,symptom
+D014098,Toothache,D014098,symptom
+term:Bite and Sting,Bite and Sting,,bite_or_poisoning
+D000505,Alopecia,D000505,disease
+D012532,Scabies,D012532,symptom
+D004403,Dysentery,D004403,disease
+D017116,Low Back Pain,D017116,symptom
+D007299,Insect Bites and Stings,D007299,bite_or_poisoning
+D012140,Respiratory Tract Diseases,D012140,effect
+D004066,Digestive System Diseases,D004066,effect
+D005414,Flatulence,D005414,effect
+D013894,Thirst,D013894,symptom
+D012880,Skin Pigmentation,D012880,effect
+D002400,Cathartics,D002400,effect
+D006484,Hemorrhoids,D006484,effect
+D004487,Edema,D004487,effect
+D000039,Peritonsillar Abscess,D000039,disease
+D053609,Lethargy,D053609,effect
+D006373,Helminthiasis,D006373,disease
+D004639,Emetics,D004639,effect
+D005100,Expectorants,D005100,effect
+D004232,Diuretics,D004232,effect
+D002756,Cholagogues and Choleretics,D002756,effect
+D052878,Urolithiasis,D052878,disease
+D003371,Cough,D003371,symptom
+D015746,Abdominal Pain,D015746,symptom
+D010373,Lice Infestations,D010373,symptom
+D002481,Cellulitis,D002481,effect
+D001249,Asthma,D001249,disease
+D011041,Poisoning,D011041,bite_or_poisoning
+D065008,Scorpion Stings,D065008,bite_or_poisoning
+D009145,Mushroom Poisoning,D009145,bite_or_poisoning
+D010939,Plant Poisoning,D010939,bite_or_poisoning
+D013163,Splenomegaly,D013163,disease
+D008107,Liver Diseases,D008107,disease
+D004827,Epilepsy,D004827,disease
+D003863,Depression,D003863,effect
+D007415,Intestinal Obstruction,D007415,disease
+D002446,Celiac Disease,D002446,disease
+term:Intestinal Ulcerations,Intestinal Ulcerations,,effect
+D000038,Abscess,D000038,effect
+D008600,Menstruation-Inducing Agents,D008600,effect
+term:Intestinal Hernias,Intestinal Hernias,,disease
+D006490,Hemostatics,D006490,effect
+D006469,Hemoptysis,D006469,symptom
+D056669,Galactogogues,D056669,effect
+D004412,Dysmenorrhea,D004412,symptom
+D014945,Wound Healing,D014945,effect
+D001046,Aphrodisiacs,D001046,other
+D014792,Visual Acuity,D014792,effect
+D005128,Eye Diseases,D005128,effect
+D005141,Eyelid Diseases,D005141,disease
+D006073,Gout,D006073,disease
+D007169,Impetigo,D007169,disease
+D017512,Lichenoid Eruptions,D017512,symptom
+D010309,Parotitis,D010309,effect
+D015212,Inflammatory Bowel Diseases,D015212,effect
+term:Skin Pigmentation Disorders,Skin Pigmentation Disorders,,effect
+"term:Detoxification, Drug","Detoxification, Drug",,effect
+D014133,Tracheal Diseases,D014133,effect
+D007592,Joint Diseases,D007592,disease
+D009374,"Neoplasms, Experimental",D009374,effect
+D000022,"Abortion, Spontaneous",D000022,effect
+D007565,Jaundice,D007565,symptom
+D007911,Lentigo,D007911,effect
+D003693,Delirium,D003693,effect
+D009393,Nephritis,D009393,disease
+D013575,Syncope,D013575,symptom
+D007410,Intestinal Diseases,D007410,disease
+D007674,Kidney Diseases,D007674,disease
+term:Renal and Urologic Diseases,Renal and Urologic Diseases,,disease
+D010243,Paralysis,D010243,effect
+D014076,Tooth Diseases,D014076,disease
+D005334,Fever,D005334,symptom
+D004433,Earache,D004433,symptom
+D002145,Callosities,D002145,effect
+D014947,Wounds and Injuries,D014947,effect
+D006261,Headache,D006261,symptom
+D004886,Erysipelas,D004886,disease
+D002056,Burns,D002056,effect
+D005756,Gastritis,D005756,effect
+D001745,Urinary Bladder Diseases,D001745,disease
+D002647,Chilblains,D002647,effect
+D005534,Foot Diseases,D005534,disease
+D009294,Narcotics,D009294,effect
+D018771,Arthralgia,D018771,symptom
+D014552,Urinary Tract Infections,D014552,disease
+D002357,Cartilage Diseases,D002357,disease
+term:Fractures,Fractures,,effect
+D014388,"Tuberculosis, Lymph Node",D014388,disease
+term:Abdominal Distension,Abdominal Distension,,symptom
+term:Hysterical Disorders,Hysterical Disorders,,effect
+D014591,Uterine Diseases,D014591,disease
+D053159,Dysuria,D053159,symptom
+D013742,Tetanus,D013742,effect
+D010998,Pleurisy,D010998,symptom
+D004415,Dyspepsia,D004415,symptom
+D019167,Appetite Stimulants,D019167,effect
+D002316,Cardiotonic Agents,D002316,effect
+D008630,Mercury Poisoning,D008630,effect
+D007172,Erectile Dysfunction,D007172,effect
+D020127,Recovery of Function,D020127,effect
+D005767,Gastrointestinal Diseases,D005767,disease
+D003967,Diarrhea,D003967,effect
+D006547,Hernia,D006547,effect
+D012640,Seizures,D012640,symptom
+D004194,Disease,D004194,disease
+D003731,Dental Caries,D003731,effect
+D002590,Cestode Infections,D002590,disease
+D006473,Postpartum Hemorrhage,D006473,effect
+D008171,Lung Diseases,D008171,disease
+D000152,Acne Vulgaris,D000152,symptom
+D014397,"Tuberculosis, Pulmonary",D014397,disease
+term:Chronic Rhinitis,Chronic Rhinitis,,symptom
+D056844,Renal Colic,D056844,symptom
+D014590,Uterine Contraction,D014590,effect
+term:Alcohol Withdrawal Syndrome,Alcohol Withdrawal Syndrome,,effect
+term:Visual Acuity Disorders,Visual Acuity Disorders,,symptom
+term:Carminatives,Carminatives,,effect
+D005300,"Fertility Agents, Female",D005300,effect
+D012220,Rhinitis,D012220,symptom
+D012141,Respiratory Tract Infections,D012141,disease
+D001991,Bronchitis,D001991,disease
+D006993,Hypnotics and Sedatives,D006993,effect
+"term:Diarrhea, Chronic","Diarrhea, Chronic",,effect
+D003288,Contusions,D003288,effect
+D018457,"Placenta, Retained",D018457,effect
+D000072281,Lymphadenopathy,D000072281,effect
+D012559,Schizophrenia,D012559,disease
+D014832,Voice Disorders,D014832,symptom
+D000871,Anthelmintics,D000871,effect
+term:Tenesmus,Tenesmus,,symptom
+D001768,Blister,D001768,effect
+"term:Neoplasms, Suspected","Neoplasms, Suspected",,effect
+D005402,Fistula,D005402,effect
+term:Foreign Body,Foreign Body,,effect
+D007918,Leprosy,D007918,disease
+term:Dermatological Diseases,Dermatological Diseases,,disease
+term:Skin Discoloration,Skin Discoloration,,symptom
+D016780,"Malaria, Vivax",D016780,disease
+term:Purulent Discharge,Purulent Discharge,,symptom
+D004890,Erythema,D004890,symptom
+term:Urinary Tract Disorders,Urinary Tract Disorders,,effect
+D013708,Tendon Injuries,D013708,effect
+D013158,Splenic Diseases,D013158,disease
+D001098,Spider Bites,D001098,bite_or_poisoning
+D000931,Antidotes,D000931,bite_or_poisoning
+D016055,Urinary Retention,D016055,effect
+D058633,Antipyretics,D058633,effect
+D001066,Appetite,D001066,effect
+D054368,Laxatives,D054368,effect
+term:Respiratory Secretions,Respiratory Secretions,,effect
+D018697,Nootropic Agents,D018697,effect
+term:Thoracic Organ Diseases,Thoracic Organ Diseases,,disease
+"term:Burns, Thermal","Burns, Thermal",,effect
+D013035,Spasm,D013035,symptom
+term:Acne,Acne,,symptom
+D002771,Cholera,D002771,disease
+term:Gastrointestinal Motility Disorders,Gastrointestinal Motility Disorders,,effect
+D004485,Eczema,D004485,symptom
+D014717,Vertigo,D014717,symptom
+term:Cerebral Congestion,Cerebral Congestion,,effect
+D001252,Astringents,D001252,effect
+term:Uric Acid Nephrolithiasis,Uric Acid Nephrolithiasis,,symptom
+D005313,Fetal Death,D005313,effect
+term:Gastric Distention,Gastric Distention,,effect
+D003248,Constipation,D003248,symptom
+term:Spasms,Spasms,,effect
+term:Ejaculation Disorders,Ejaculation Disorders,,effect
+D000893,Anti-Inflammatory Agents,D000893,effect
+term:Humoral Disorders,Humoral Disorders,,effect
+D006331,Heart Diseases,D006331,disease
+term:Visual Disturbances,Visual Disturbances,,symptom
+D002277,Carcinoma,D002277,disease
+D013180,Sprains and Strains,D013180,effect
+D003085,Colic,D003085,symptom
+term:Muscle Diseases,Muscle Diseases,,disease
+D000437,Alcoholism,D000437,effect
+D060825,Cognitive Dysfunction,D060825,effect
+D009135,Muscular Diseases,D009135,disease
+"term:Paralysis, Neurologic","Paralysis, Neurologic",,effect
+D006606,Hiccup,D006606,symptom
+D000550,Amblyopia,D000550,symptom
+D013733,Testicular Diseases,D013733,disease
+D012585,Sciatica,D012585,symptom
+term:Depilatories,Depilatories,,effect
+"term:Trauma, Injuries","Trauma, Injuries",,effect
+"term:Trauma, Traumatic","Trauma, Traumatic",,effect
+D006209,Halitosis,D006209,symptom
+D009059,Mouth Diseases,D009059,disease
+"term:Wound, Healing","Wound, Healing",,effect
+D012878,Skin Neoplasms,D012878,effect
+D011818,Rabies,D011818,disease
+D001943,Breast Neoplasms,D001943,disease
+D010608,Pharyngeal Diseases,D010608,symptom
+D012793,Sialadenitis,D012793,disease
+D005759,Gastroenteritis,D005759,effect
+term:Squill,Squill,,effect
+D015354,"Vision, Low",D015354,effect
+D007035,Hypothermia,D007035,effect
+D029424,"Pulmonary Disease, Chronic Obstructive",D029424,symptom
+D063807,Dandruff,D063807,symptom
+term:Skin Dryness,Skin Dryness,,symptom
+D014949,"Wounds, Nonpenetrating",D014949,effect
+D008548,Melanosis,D008548,effect
+D006319,"Hearing Loss, Sensorineural",D006319,effect
+term:Intestinal Spasms,Intestinal Spasms,,symptom
+D051520,Antiperspirants,D051520,effect
+D013710,Tendons,D013710,effect
+D007751,"Labor, Induced",D007751,effect
+D059352,Musculoskeletal Pain,D059352,symptom
+D004604,Elephantiasis,D004604,disease
+"term:Aphrodisiac Agents, Antagonists","Aphrodisiac Agents, Antagonists",,effect
+D004438,Ecchymosis,D004438,symptom
+D000067390,Cold Injury,D000067390,effect
+D011618,Psychotic Disorders,D011618,effect
+"term:Poisoning, Animal","Poisoning, Animal",,bite_or_poisoning
+D007249,Inflammation,D007249,effect
+term:Galactogogue,Galactogogue,,effect
+D014860,Warts,D014860,disease
+D014839,Vomiting,D014839,symptom
+term:Uterine Abscess,Uterine Abscess,,disease
+D000768,"Anesthesia, General",D000768,effect
+D005548,Foreign-Body Migration,D005548,effect
+D014382,"Tuberculosis, Cutaneous",D014382,disease
+D001007,Anxiety,D001007,symptom
+D002637,Chest Pain,D002637,symptom
+D009369,Neoplasms,D009369,disease
+term:Infant Diseases,Infant Diseases,,disease
+D009260,Nail Diseases,D009260,disease
+"term:Poisoning, Copper","Poisoning, Copper",,bite_or_poisoning
+term:Cantharidin Toxicity,Cantharidin Toxicity,,effect
+term:Uterine Displacement,Uterine Displacement,,effect
+D023341,Chills,D023341,symptom
+D006963,Hyperphagia,D006963,effect
+"term:Hemorrhage, Internal","Hemorrhage, Internal",,effect
+D004844,Epistaxis,D004844,symptom
+D004417,Dyspnea,D004417,symptom
+D005627,Frostbite,D005627,bite_or_poisoning
+D014549,Urinary Incontinence,D014549,symptom
+term:Nipple Disorders,Nipple Disorders,,symptom
+D007018,Hypopituitarism,D007018,effect
+term:Spermatic Cyst,Spermatic Cyst,,effect
+D005130,Eye Hemorrhage,D005130,effect
+"term:Sweating, Abnormal","Sweating, Abnormal",,effect
+term:Sexual Dysfunction,Sexual Dysfunction,,effect
+D006470,Hemorrhage,D006470,effect
+"term:Rupture, Traumatic","Rupture, Traumatic",,effect
+term:Parasitic Infestations,Parasitic Infestations,,effect
+D007246,Infertility,D007246,effect
+D008598,Menstruation,D008598,effect
+term:Purulent Secretions,Purulent Secretions,,effect
+D014069,Tonsillitis,D014069,disease
+D014060,Tongue Diseases,D014060,disease
+D001941,Breast Diseases,D001941,disease
+D012002,Rectal Diseases,D012002,disease
+term:Skin Irritation,Skin Irritation,,symptom
+D050034,Antidiuretic Agents,D050034,effect
+D006359,Heat Exhaustion,D006359,effect
+D010146,Pain,D010146,symptom
+D009325,Nausea,D009325,symptom
+term:Abortion,Abortion,,effect
+D000138,Acidosis,D000138,effect
+D008288,Malaria,D008288,disease
+term:Lacrimal Fistula,Lacrimal Fistula,,effect
+D013183,Sputum,D013183,effect
+term:Uric Aciduria,Uric Aciduria,,effect
+D001523,Mental Disorders,D001523,other
+D017495,Hyperpigmentation,D017495,effect
+D018798,"Anemia, Iron-Deficiency",D018798,effect
+D018712,"Analgesics, Non-Narcotic",D018712,effect
+D052801,Male Urogenital Diseases,D052801,disease
+D005764,Gastroesophageal Reflux,D005764,symptom
+D011014,Pneumonia,D011014,disease
+D011536,Prurigo,D011536,symptom
+D003744,Dental Enamel Hypoplasia,D003744,effect
+D014136,Tracheitis,D014136,symptom
+D005221,Fatigue,D005221,symptom
+term:Respiratory Distress,Respiratory Distress,,symptom
+term:Mouth Odor,Mouth Odor,,effect
+D009669,Nose Neoplasms,D009669,disease
+D010031,Otitis,D010031,disease
+term:Diaphragm Diseases,Diaphragm Diseases,,disease
+"term:Pregnancy Complications, Labor","Pregnancy Complications, Labor",,effect
+D007743,"Labor, Obstetric",D007743,effect
+D012128,Respiratory Distress Syndrome,D012128,effect
+term:Postpartum Vertigo,Postpartum Vertigo,,symptom
+D013546,Sweating,D013546,effect
+term:Gastrointestinal Distress,Gastrointestinal Distress,,symptom
+term:Uvulitis,Uvulitis,,symptom
+D000096822,Chronic Cough,D000096822,symptom
+D005094,Exophthalmos,D005094,effect
+D005891,Gingivitis,D005891,disease
+D019547,Neck Pain,D019547,symptom
+term:Nipple Diseases,Nipple Diseases,,disease
+term:Wound Pain,Wound Pain,,symptom
+term:Muscle Hypertrophy,Muscle Hypertrophy,,effect
+term:Lochia,Lochia,,effect
+D012893,Sleep Wake Disorders,D012893,effect
+"term:Wound, Non-Healing","Wound, Non-Healing",,effect
+term:Testis Diseases,Testis Diseases,,disease
+term:Menstrual Disorders,Menstrual Disorders,,disease
+term:Cantharidin Poisoning,Cantharidin Poisoning,,bite_or_poisoning
+term:Nail Dysplasia,Nail Dysplasia,,effect
+D010612,Pharyngitis,D010612,symptom
+D007855,Lead Poisoning,D007855,disease
+term:Marine Poisoning,Marine Poisoning,,bite_or_poisoning
+D014086,Tooth Mobility,D014086,effect
+D014596,Uterine Prolapse,D014596,disease
+D007669,Kidney Calculi,D007669,disease
+D009140,Musculoskeletal Diseases,D009140,disease
+term:Uterine Spasms,Uterine Spasms,,symptom
+"term:Mastitis, Breast","Mastitis, Breast",,disease
+term:Mucin,Mucin,,effect
+D043183,Irritable Bowel Syndrome,D043183,symptom
+D011537,Pruritus,D011537,symptom
+term:Respiratory Mucus,Respiratory Mucus,,symptom
+D014663,Nasal Decongestants,D014663,effect
+D012871,Skin Diseases,D012871,disease
+D006726,Hordeolum,D006726,symptom
+term:Tonic Agents,Tonic Agents,,effect
+D009128,Muscle Spasticity,D009128,effect
+D010523,Peripheral Nervous System Diseases,D010523,effect
+"term:Cough, Dry","Cough, Dry",,symptom
+D005734,Gangrene,D005734,disease
+D011625,Pterygium,D011625,disease
+D053040,Nephrolithiasis,D053040,disease
+D008578,Meninges,D008578,effect
+D009920,Orchitis,D009920,disease
+D012661,Semen,D012661,effect
+term:Spermatic Cysts,Spermatic Cysts,,effect
+term:Fomentation,Fomentation,,effect
+D014570,Urologic Diseases,D014570,disease
+term:Foreign Body in Ear,Foreign Body in Ear,,effect
+term:Musculoskeletal Disorders,Musculoskeletal Disorders,,effect
+term:Gastrointestinal Motility Agents,Gastrointestinal Motility Agents,,effect
+D006945,Hyperhidrosis,D006945,symptom
+D006332,Cardiomegaly,D006332,effect

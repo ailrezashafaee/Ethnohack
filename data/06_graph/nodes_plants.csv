@@ -1,0 +1,113 @@
+id,name,scientific,wfo_id,status,level
+plant:onion,onion,Allium cepa L.,wfo-0000755919,llm,species
+plant:radish,radish,Raphanus sativus L.,wfo-0000402430,footnote,species
+plant:wild_cucumber,wild cucumber,Ecballium elaterium (L.) A.Rich.,wfo-0000659225,manual,species
+plant:elaterium,elaterium,Cucumis sativus L.,wfo-0000628992,llm,species
+plant:cucumber,cucumber,Cucumis sativus L.,wfo-0000628992,llm,species
+plant:pepone,pepone,Cucurbita pepo L.,wfo-0000629123,llm,species
+plant:gourd,gourd,Cucurbita pepo L.,wfo-0000629123,footnote+llm,species
+plant:colocynthis,colocynthis,Citrullus colocynthis (L.) Schrad.,wfo-0000607845,footnote,species
+plant:rape,rape,Brassica napus L.,wfo-0000571271,llm,species
+plant:turnip,turnip,Bunium bulbocastanum L.,wfo-0000574803,footnote,species
+plant:wild_radish,wild radish,"Armoracia rusticana G.Gaertn., B.Mey. & Scherb.",wfo-0000549445,llm,species
+plant:hibiscum,hibiscum,Althaea officinalis L.,wfo-0000529011,manual,species
+plant:staphylinos,staphylinos,Pastinaca sativa L.,wfo-0000391752,llm,species
+plant:parsnip,parsnip,Pastinaca sativa L.,wfo-0000391752,llm,species
+plant:gingidion,gingidion,Visnaga daucoides Gaertn.,wfo-0000421889,footnote,species
+plant:skirret,skirret,Cyclamen purpurascens Mill.,wfo-0000631845,llm,species
+plant:hartwort,hartwort,Seseli tortuosum L.,wfo-0000434494,footnote,species
+plant:elecampane,elecampane,Inula helenium L.,wfo-0000120207,llm,species
+plant:cutleek,cutleek,Allium ampeloprasum L.,wfo-0000755607,manual,species
+plant:bulbed_leek,bulbed leek,Allium L.,wfo-4000001260,llm,genus
+plant:garlic,garlic,Allium sativum L.,wfo-0000757248,llm,species
+plant:lettuce,lettuce,Lactuca L.,wfo-4000020393,footnote,genus
+plant:wild_lettuce,wild lettuce,Lactuca virosa L.,wfo-0000114404,llm,species
+plant:isatis,isatis,Isatis tinctoria L.,wfo-0000732433,disputed,species
+plant:hawk_weed,hawk weed,Arnica montana L.,wfo-0000003482,llm,species
+plant:beet,beet,Beta vulgaris L.,wfo-0000564998,llm,species
+plant:white_beet,white beet,Beta vulgaris L.,wfo-0000564998,llm,species
+plant:black_beet,black beet,Beta vulgaris L.,wfo-0000564998,llm,species
+plant:limonion_neuroide,limonion neuroide,Beta vulgaris L.,wfo-0000564998,llm,species
+plant:endive,endive,Cichorium intybus L.,wfo-0000080671,footnote,species
+plant:wild_endive,wild endive,Cichorium L.,wfo-4000008307,footnote,genus
+plant:seris,seris,Cichorium endivia L.,wfo-0000121598,footnote,species
+plant:cabbage,cabbage,Brassica oleracea L.,wfo-0000571350,llm,species
+plant:wild_cabbage,wild cabbage,Brassica L.,wfo-4000005345,manual,genus
+plant:lapsana,lapsana,Tanacetum vulgare L.,wfo-0000114512,llm,species
+plant:sea_cabbage,sea cabbage,Convolvulus soldanella L.,wfo-0001297653,disputed,species
+plant:squill,squill,Squilla maritima (L.) Steinh.,wfo-0000738351,manual,species
+plant:bulb,bulb,Muscari comosum (L.) Mill.,wfo-0000693046,manual,species
+plant:red_bulb,red bulb,Allium sativum L.,wfo-0000757248,llm,species
+plant:bulb_of_megara,bulb of megara,Allium sativum L.,wfo-0000757248,llm,species
+plant:wild_bulb,wild bulb,Allium sativum L.,wfo-0000757248,llm,species
+plant:bulbine,bulbine,Muscari botryoides (L.) Mill.,wfo-0000694229,disputed,species
+plant:asparagus,asparagus,Asparagus officinalis L.,wfo-0000634022,llm,species
+plant:wild_asparagus,wild asparagus,Asparagus officinalis L.,wfo-0000634022,footnote,species
+plant:parsley,parsley,Petroselinum crispum (Mill.) Fuss,wfo-0000745326,llm,species
+plant:hipposelinon,hipposelinon,Nigella damascena L.,wfo-0000380636,llm,species
+plant:helioselinon,helioselinon,Apium graveolens L.,wfo-0000540626,llm,species
+plant:oreoselinon,oreoselinon,Foeniculum vulgare Mill.,wfo-0000691487,llm,species
+plant:petroselinon,petroselinon,Apium graveolens L.,wfo-0000540626,llm,species
+plant:buselinon,buselinon,Petroselinum crispum (Mill.) Fuss,wfo-0000745326,llm,species
+plant:ocimum,ocimum,Ocimum basilicum L.,wfo-0000253230,footnote,species
+plant:wild_ocimum,wild ocimum,Ocimum basilicum L.,wfo-0000253230,llm,species
+plant:rocket,rocket,Eruca vesicaria subsp. sativa (Mill.) Hegi,wfo-0000677418,footnote,species
+plant:nasturtium,nasturtium,Lepidium sativum L.,wfo-0000358699,footnote,species
+plant:rue,rue,Ruta graveolens L.,wfo-0000463744,footnote,species
+plant:hemlock,hemlock,Conium maculatum L.,wfo-0000617964,llm,species
+plant:wild_rue,wild rue,Ruta chalepensis L.,wfo-0000463803,llm,species
+plant:wild_mint,wild mint,Mentha longifolia (L.) Huds.,wfo-0001069664,manual,species
+plant:mint,mint,Mentha × verticillata L.,wfo-0000241568,footnote,species
+plant:pennyroyal,pennyroyal,Mentha pulegium L.,wfo-0000241235,manual,species
+plant:wild_pennyroyal,wild pennyroyal,Mentha longifolia (L.) Huds.,wfo-0001069664,llm,species
+plant:nep,nep,Melissa officinalis subsp. officinalis ,wfo-0000240056,disputed,species
+plant:wild_cummin,wild cummin,Cuminum cyminum L.,wfo-0000629277,footnote,species
+plant:cummin,cummin,Cuminum cyminum L.,wfo-0000629277,llm,species
+plant:ammi,ammi,Tragopogon porrifolius L.,wfo-0000091699,llm,species
+plant:caper,caper,Capparis spinosa L.,wfo-0000029724,footnote+llm,species
+plant:ligusticum,ligusticum,Angelica archangelica L.,wfo-0000536100,llm,species
+plant:cunila_bubula,cunila bubula,Mentha longifolia (L.) Huds.,wfo-0001069664,llm,species
+plant:cunila_gallinacea_origanum,cunila gallinacea origanum,Origanum vulgare L.,wfo-0000260765,llm,species
+plant:cunilago,cunilago,Tanacetum L.,wfo-4000037526,llm,genus
+plant:soft_cunila_libanotis,soft cunila libanotis,Pulicaria vulgaris subsp. vulgaris ,wfo-0000103280,disputed,species
+plant:cunila,cunila,Satureia L.,wfo-4000048201,footnote,genus
+plant:mountain_cunila,mountain cunila,Thymus serpyllum L.,wfo-0000324739,llm,species
+plant:cunila_mountain_cunila,cunila mountain cunila,Thymus serpyllum L.,wfo-0000324739,llm,species
+plant:onitis_or_prasion,onitis or prasion,Origanum onites L.,wfo-0000260691,footnote,species
+plant:tragoriganum,tragoriganum,Satureja thymbra L.,wfo-0000304557,footnote,species
+plant:origanum,origanum,Origanum vulgare L.,wfo-0000260765,llm,species
+plant:heracleotic_origanum,heracleotic origanum,Origanum vulgare L.,wfo-0000260765,llm,species
+plant:dittander,dittander,Lepidium latifolium L.,wfo-0000358409,footnote,species
+plant:gith,gith,Nigella sativa L.,wfo-0000380671,footnote,species
+plant:anise,anise,Pimpinella anisum L.,wfo-0000390925,manual,species
+plant:dill,dill,Anethum graveolens L.,wfo-0000536042,footnote,species
+plant:sacopenium,sacopenium,Pulsatilla vulgaris Mill.,wfo-0000471767,llm,species
+plant:white_poppy,white poppy,Papaver rhoeas L.,wfo-0000481006,llm,species
+plant:black_poppy,black poppy,Papaver somniferum L.,wfo-0000480963,llm,species
+plant:poppy,poppy,Papaver somniferum L.,wfo-0000480963,llm,species
+plant:rhoeas_poppy,rhoeas poppy,Papaver rhoeas L.,wfo-0000481006,footnote,species
+plant:wild_poppy_called_ceratitis,wild poppy called ceratitis,Glaucium corniculatum (L.) Curtis,wfo-0001090276,manual,species
+plant:tithymalon_mecon_paralion,tithymalon mecon paralion,Euphorbia paralias L.,wfo-0000963826,disputed,species
+plant:purslain,purslain,Portulaca oleracea L.,wfo-0000484425,manual,species
+plant:coriander,coriander,Coriandrum sativum L.,wfo-0000621274,footnote,species
+plant:orage,orage,Atriplex hortensis L.,wfo-0000556137,footnote,species
+plant:mallow,mallow,Malva sylvestris L.,wfo-0000449636,footnote,species
+plant:althaea,althaea,Althaea officinalis L.,wfo-0000529011,footnote,species
+plant:lapathum,lapathum,Rumex L.,wfo-4000033616,manual,genus
+plant:wild_lapathum_or_oxalis,wild lapathum or oxalis,Oxalis corniculata L.,wfo-0000387203,llm,species
+plant:hippolapathum,hippolapathum,Rumex crispus L.,wfo-0000403671,llm,species
+plant:oxylapathum,oxylapathum,Oxalis corniculata L.,wfo-0000387203,llm,species
+plant:bulapathon,bulapathon,Artemisia indica Willd.,wfo-0000747726,llm,species
+plant:mustard,mustard,Sinapis alba L.,wfo-0000432649,footnote,species
+plant:marrubium,marrubium,Marrubium vulgare L.,wfo-0000236711,llm,species
+plant:horehound,horehound,Marrubium vulgare L.,wfo-0000236711,llm,species
+plant:thyme,thyme,Thymus serpyllum L.,wfo-0000324739,footnote,species
+plant:sisymbrium_thymbraeum,sisymbrium thymbraeum,Sisymbrium officinale (L.) Scop.,wfo-0000432010,llm,species
+plant:flax,flax,Linum usitatissimum L.,wfo-0000366385,llm,species
+plant:blite,blite,Blitum capitatum L.,wfo-0000566891,footnote,species
+plant:meum,meum,Achillea millefolium L.,wfo-0000042097,llm,species
+plant:fennel,fennel,Foeniculum vulgare Mill.,wfo-0000691487,footnote,species
+plant:hippomarathron,hippomarathron,Foeniculum vulgare Mill.,wfo-0000691487,llm,species
+plant:hemp,hemp,Althaea cannabina L.,wfo-0000528921,footnote,species
+plant:fennel_giant,fennel giant,Foeniculum vulgare Mill.,wfo-0000691487,llm,species
+plant:thistle_or_scolymos,thistle or scolymos,Cinara L.,wfo-4000048312,footnote,genus

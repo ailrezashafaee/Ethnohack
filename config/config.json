@@ -1,0 +1,41 @@
+{
+  "book": 20,
+  "paths": {
+    "chapters": "data/01_text/chapters.jsonl",
+    "gold": "gold/gold.jsonl",
+    "claims_out": "data/02_claims/claims.jsonl",
+    "log": "data/02_claims/log.jsonl"
+  },
+  "llm": {
+    "ollama_url": "http://localhost:11434/api/chat",
+    "model": "qwen3:8b",
+    "temperature": 0,
+    "num_ctx": 16384,
+    "timeout_s": 600,
+    "prompt_version": "v2",
+    "think": false
+  },
+  "extraction": {
+    "max_chars_per_call": 1500,
+    "context_sentences": 2,
+    "num_predict": 4096,
+    "repeat_penalty": 1.1,
+    "retries": 2
+  },
+  "few_shot_chapters": [
+    83
+  ],
+  "test_chapters": [
+    13,
+    14,
+    15,
+    52,
+    86
+  ],
+  "plants": {
+    "overrides": "data/03_plants/overrides.csv"
+  },
+  "taxonomy": {
+    "cache": "data/03_plants/taxonomy_cache_v2.json"
+  }
+}

@@ -1,0 +1,1443 @@
+{
+ "visual acuity": {
+  "mesh_id": "D014792",
+  "mesh_label": "Visual Acuity"
+ },
+ "mucosal ulcer": null,
+ "bite and suck injury": null,
+ "skin abrasions": null,
+ "conjunctivitis": {
+  "mesh_id": "D003231",
+  "mesh_label": "Conjunctivitis"
+ },
+ "genital ulcerations": null,
+ "keratitis": {
+  "mesh_id": "D007634",
+  "mesh_label": "Keratitis"
+ },
+ "corneal opacity": {
+  "mesh_id": "D003318",
+  "mesh_label": "Corneal Opacity"
+ },
+ "snake bites": {
+  "mesh_id": "D012909",
+  "mesh_label": "Snake Bites"
+ },
+ "ulcer": {
+  "mesh_id": "D014456",
+  "mesh_label": "Ulcer"
+ },
+ "hearing loss": {
+  "mesh_id": "D034381",
+  "mesh_label": "Hearing Loss"
+ },
+ "tinnitus": {
+  "mesh_id": "D014012",
+  "mesh_label": "Tinnitus"
+ },
+ "speech disorders": {
+  "mesh_id": "D013064",
+  "mesh_label": "Speech Disorders"
+ },
+ "toothache": {
+  "mesh_id": "D014098",
+  "mesh_label": "Toothache"
+ },
+ "animal bites": null,
+ "alopecia": {
+  "mesh_id": "D000505",
+  "mesh_label": "Alopecia"
+ },
+ "dysentery": {
+  "mesh_id": "D004403",
+  "mesh_label": "Dysentery"
+ },
+ "low back pain": {
+  "mesh_id": "D017116",
+  "mesh_label": "Low Back Pain"
+ },
+ "arthropods": {
+  "mesh_id": "D001181",
+  "mesh_label": "Arthropods"
+ },
+ "cardiovascular agents": {
+  "mesh_id": "D002317",
+  "mesh_label": "Cardiovascular Agents"
+ },
+ "digestive system": {
+  "mesh_id": "D004064",
+  "mesh_label": "Digestive System"
+ },
+ "flatulence": {
+  "mesh_id": "D005414",
+  "mesh_label": "Flatulence"
+ },
+ "thirst": {
+  "mesh_id": "D013894",
+  "mesh_label": "Thirst"
+ },
+ "skin pigmentation": {
+  "mesh_id": "D012880",
+  "mesh_label": "Skin Pigmentation"
+ },
+ "diuretics": {
+  "mesh_id": "D004232",
+  "mesh_label": "Diuretics"
+ },
+ "digestive system diseases": {
+  "mesh_id": "D004066",
+  "mesh_label": "Digestive System Diseases"
+ },
+ "cathartics": {
+  "mesh_id": "D002400",
+  "mesh_label": "Cathartics"
+ },
+ "hemorrhoids": {
+  "mesh_id": "D006484",
+  "mesh_label": "Hemorrhoids"
+ },
+ "edema": {
+  "mesh_id": "D004487",
+  "mesh_label": "Edema"
+ },
+ "peritonsillar abscess": {
+  "mesh_id": "D000039",
+  "mesh_label": "Peritonsillar Abscess"
+ },
+ "drowsiness": null,
+ "helminthiasis": {
+  "mesh_id": "D006373",
+  "mesh_label": "Helminthiasis"
+ },
+ "emetics": {
+  "mesh_id": "D004639",
+  "mesh_label": "Emetics"
+ },
+ "expectorant": null,
+ "urolithiasis": {
+  "mesh_id": "D052878",
+  "mesh_label": "Urolithiasis"
+ },
+ "cough": {
+  "mesh_id": "D003371",
+  "mesh_label": "Cough"
+ },
+ "pain": {
+  "mesh_id": "D010146",
+  "mesh_label": "Pain"
+ },
+ "lice infestation": null,
+ "phlegmon": null,
+ "bronchodilator agents": {
+  "mesh_id": "D001993",
+  "mesh_label": "Bronchodilator Agents"
+ },
+ "poisoning": {
+  "mesh_id": "D011041",
+  "mesh_label": "Poisoning"
+ },
+ "scorpion stings": {
+  "mesh_id": "D065008",
+  "mesh_label": "Scorpion Stings"
+ },
+ "poisoning, fungal": null,
+ "poisoning, plant": null,
+ "toxicity, drug": null,
+ "splenomegaly": {
+  "mesh_id": "D013163",
+  "mesh_label": "Splenomegaly"
+ },
+ "hepatitis": {
+  "mesh_id": "D006505",
+  "mesh_label": "Hepatitis"
+ },
+ "renal colic": {
+  "mesh_id": "D056844",
+  "mesh_label": "Renal Colic"
+ },
+ "lethargy": {
+  "mesh_id": "D053609",
+  "mesh_label": "Lethargy"
+ },
+ "epilepsy": {
+  "mesh_id": "D004827",
+  "mesh_label": "Epilepsy"
+ },
+ "depression": {
+  "mesh_id": "D003863",
+  "mesh_label": "Depression"
+ },
+ "pelvic pain": {
+  "mesh_id": "D017699",
+  "mesh_label": "Pelvic Pain"
+ },
+ "celiac disease": {
+  "mesh_id": "D002446",
+  "mesh_label": "Celiac Disease"
+ },
+ "enteropathy": null,
+ "pleuritis": null,
+ "menstruation": {
+  "mesh_id": "D008598",
+  "mesh_label": "Menstruation"
+ },
+ "intestinal hernia": null,
+ "phlebotomy": {
+  "mesh_id": "D018962",
+  "mesh_label": "Phlebotomy"
+ },
+ "hemoptysis": {
+  "mesh_id": "D006469",
+  "mesh_label": "Hemoptysis"
+ },
+ "lactation": {
+  "mesh_id": "D007774",
+  "mesh_label": "Lactation"
+ },
+ "dysmenorrhea": {
+  "mesh_id": "D004412",
+  "mesh_label": "Dysmenorrhea"
+ },
+ "skin pigmentation disorders": null,
+ "aphrodisiacs": {
+  "mesh_id": "D001046",
+  "mesh_label": "Aphrodisiacs"
+ },
+ "cartilage diseases": {
+  "mesh_id": "D002357",
+  "mesh_label": "Cartilage Diseases"
+ },
+ "fracture": null,
+ "repellents": null,
+ "insect bites, animal": null,
+ "tuberculosis, lymph node": {
+  "mesh_id": "D014388",
+  "mesh_label": "Tuberculosis, Lymph Node"
+ },
+ "gout": {
+  "mesh_id": "D006073",
+  "mesh_label": "Gout"
+ },
+ "ascites": {
+  "mesh_id": "D001201",
+  "mesh_label": "Ascites"
+ },
+ "hysteria": {
+  "mesh_id": "D007046",
+  "mesh_label": "Hysteria"
+ },
+ "uterus": {
+  "mesh_id": "D014599",
+  "mesh_label": "Uterus"
+ },
+ "abdominal pain": {
+  "mesh_id": "D015746",
+  "mesh_label": "Abdominal Pain"
+ },
+ "erysipelas": {
+  "mesh_id": "D004886",
+  "mesh_label": "Erysipelas"
+ },
+ "hepatosplenomegaly": null,
+ "renal region": null,
+ "urinary tract infections": {
+  "mesh_id": "D014552",
+  "mesh_label": "Urinary Tract Infections"
+ },
+ "tetanus": {
+  "mesh_id": "D013742",
+  "mesh_label": "Tetanus"
+ },
+ "dyspepsia": {
+  "mesh_id": "D004415",
+  "mesh_label": "Dyspepsia"
+ },
+ "elephantiasis": {
+  "mesh_id": "D004604",
+  "mesh_label": "Elephantiasis"
+ },
+ "poisoning, animal": null,
+ "venomous bite": null,
+ "centipede bite": null,
+ "poisons": {
+  "mesh_id": "D011042",
+  "mesh_label": "Poisons"
+ },
+ "postpartum hemorrhage": {
+  "mesh_id": "D006473",
+  "mesh_label": "Postpartum Hemorrhage"
+ },
+ "abortion": null,
+ "rupture": {
+  "mesh_id": "D012421",
+  "mesh_label": "Rupture"
+ },
+ "convulsions": null,
+ "orthopnea": null,
+ "intestinal spasms": null,
+ "cholera": {
+  "mesh_id": "D002771",
+  "mesh_label": "Cholera"
+ },
+ "jaundice": {
+  "mesh_id": "D007565",
+  "mesh_label": "Jaundice"
+ },
+ "sleep disorders": null,
+ "eczema": {
+  "mesh_id": "D004485",
+  "mesh_label": "Eczema"
+ },
+ "anemia": {
+  "mesh_id": "D000740",
+  "mesh_label": "Anemia"
+ },
+ "gastrointestinal diseases": {
+  "mesh_id": "D005767",
+  "mesh_label": "Gastrointestinal Diseases"
+ },
+ "acne": null,
+ "uterus diseases": null,
+ "toxicity, chemical": null,
+ "abscess": {
+  "mesh_id": "D000038",
+  "mesh_label": "Abscess"
+ },
+ "lymphadenopathy": {
+  "mesh_id": "D000072281",
+  "mesh_label": "Lymphadenopathy"
+ },
+ "nail dysplasia": null,
+ "tonsillitis": {
+  "mesh_id": "D014069",
+  "mesh_label": "Tonsillitis"
+ },
+ "lichens": {
+  "mesh_id": "D008011",
+  "mesh_label": "Lichens"
+ },
+ "leprosy": {
+  "mesh_id": "D007918",
+  "mesh_label": "Leprosy"
+ },
+ "sialadenitis": {
+  "mesh_id": "D012793",
+  "mesh_label": "Sialadenitis"
+ },
+ "carminatives": null,
+ "conjunctival disorders": null,
+ "pruritus": {
+  "mesh_id": "D011537",
+  "mesh_label": "Pruritus"
+ },
+ "dental caries": {
+  "mesh_id": "D003731",
+  "mesh_label": "Dental Caries"
+ },
+ "diarrhea": {
+  "mesh_id": "D003967",
+  "mesh_label": "Diarrhea"
+ },
+ "visual acuity disorders": null,
+ "syn|visual acuity disorders": null,
+ "mucous membrane ulcers": null,
+ "syn|mucous membrane ulcers": null,
+ "bites and stings": {
+  "mesh_id": "D001733",
+  "mesh_label": "Bites and Stings"
+ },
+ "skin ulcer": {
+  "mesh_id": "D012883",
+  "mesh_label": "Skin Ulcer"
+ },
+ "genital ulcers": null,
+ "syn|genital ulcers": null,
+ "corneal ulcer": {
+  "mesh_id": "D003320",
+  "mesh_label": "Corneal Ulcer"
+ },
+ "ear diseases": {
+  "mesh_id": "D004427",
+  "mesh_label": "Ear Diseases"
+ },
+ "bite and sting": null,
+ "syn|bite and sting": null,
+ "scabies": {
+  "mesh_id": "D012532",
+  "mesh_label": "Scabies"
+ },
+ "insect bites and stings": {
+  "mesh_id": "D007299",
+  "mesh_label": "Insect Bites and Stings"
+ },
+ "respiratory tract diseases": {
+  "mesh_id": "D012140",
+  "mesh_label": "Respiratory Tract Diseases"
+ },
+ "expectorants": {
+  "mesh_id": "D005100",
+  "mesh_label": "Expectorants"
+ },
+ "cholagogues and choleretics": {
+  "mesh_id": "D002756",
+  "mesh_label": "Cholagogues and Choleretics"
+ },
+ "lice infestations": {
+  "mesh_id": "D010373",
+  "mesh_label": "Lice Infestations"
+ },
+ "syn|phlegmon": {
+  "mesh_id": "D002481",
+  "mesh_label": "Cellulitis",
+  "via_synonym": "Phlegmon"
+ },
+ "asthma": {
+  "mesh_id": "D001249",
+  "mesh_label": "Asthma"
+ },
+ "mushroom poisoning": {
+  "mesh_id": "D009145",
+  "mesh_label": "Mushroom Poisoning"
+ },
+ "plant poisoning": {
+  "mesh_id": "D010939",
+  "mesh_label": "Plant Poisoning"
+ },
+ "liver diseases": {
+  "mesh_id": "D008107",
+  "mesh_label": "Liver Diseases"
+ },
+ "intestinal obstruction": {
+  "mesh_id": "D007415",
+  "mesh_label": "Intestinal Obstruction"
+ },
+ "intestinal ulcerations": null,
+ "syn|intestinal ulcerations": null,
+ "emmenagogues": null,
+ "syn|emmenagogues": {
+  "mesh_id": "D008600",
+  "mesh_label": "Menstruation-Inducing Agents",
+  "via_synonym": "Emmenagogues"
+ },
+ "intestinal hernias": null,
+ "syn|intestinal hernias": null,
+ "hemostatics": {
+  "mesh_id": "D006490",
+  "mesh_label": "Hemostatics"
+ },
+ "galactogogues": {
+  "mesh_id": "D056669",
+  "mesh_label": "Galactogogues"
+ },
+ "wound healing": {
+  "mesh_id": "D014945",
+  "mesh_label": "Wound Healing"
+ },
+ "fractures": null,
+ "syn|fractures": null,
+ "abdominal distension": null,
+ "syn|abdominal distension": null,
+ "hysterical disorders": null,
+ "syn|hysterical disorders": null,
+ "uterine diseases": {
+  "mesh_id": "D014591",
+  "mesh_label": "Uterine Diseases"
+ },
+ "dysuria": {
+  "mesh_id": "D053159",
+  "mesh_label": "Dysuria"
+ },
+ "syn|pleuritis": {
+  "mesh_id": "D010998",
+  "mesh_label": "Pleurisy",
+  "via_synonym": "Pleuritis"
+ },
+ "abortion, spontaneous": {
+  "mesh_id": "D000022",
+  "mesh_label": "Abortion, Spontaneous"
+ },
+ "rupture, traumatic": null,
+ "syn|rupture, traumatic": null,
+ "syn|convulsions": {
+  "mesh_id": "D012640",
+  "mesh_label": "Seizures",
+  "via_synonym": "Convulsions"
+ },
+ "syn|orthopnea": {
+  "mesh_id": "D004417",
+  "mesh_label": "Dyspnea",
+  "via_synonym": "Orthopnea"
+ },
+ "syn|intestinal spasms": null,
+ "parasitic infestations": null,
+ "syn|parasitic infestations": null,
+ "tuberculosis, cutaneous": {
+  "mesh_id": "D014382",
+  "mesh_label": "Tuberculosis, Cutaneous"
+ },
+ "anemia, iron-deficiency": {
+  "mesh_id": "D018798",
+  "mesh_label": "Anemia, Iron-Deficiency"
+ },
+ "syn|acne": null,
+ "cantharidin poisoning": null,
+ "syn|cantharidin poisoning": null,
+ "inflammation": {
+  "mesh_id": "D007249",
+  "mesh_label": "Inflammation"
+ },
+ "syn|nail dysplasia": null,
+ "pharyngitis": {
+  "mesh_id": "D010612",
+  "mesh_label": "Pharyngitis"
+ },
+ "lichenoid eruptions": {
+  "mesh_id": "D017512",
+  "mesh_label": "Lichenoid Eruptions"
+ },
+ "tenesmus": null,
+ "syn|tenesmus": null,
+ "irritable bowel syndrome": {
+  "mesh_id": "D043183",
+  "mesh_label": "Irritable Bowel Syndrome"
+ },
+ "syn|carminatives": null,
+ "eye diseases": {
+  "mesh_id": "D005128",
+  "mesh_label": "Eye Diseases"
+ },
+ "eyelid diseases": {
+  "mesh_id": "D005141",
+  "mesh_label": "Eyelid Diseases"
+ },
+ "impetigo": {
+  "mesh_id": "D007169",
+  "mesh_label": "Impetigo"
+ },
+ "inflammatory bowel diseases": {
+  "mesh_id": "D015212",
+  "mesh_label": "Inflammatory Bowel Diseases"
+ },
+ "syn|skin pigmentation disorders": null,
+ "detoxification, drug": null,
+ "syn|detoxification, drug": null,
+ "tracheal diseases": {
+  "mesh_id": "D014133",
+  "mesh_label": "Tracheal Diseases"
+ },
+ "arthropathies": null,
+ "syn|arthropathies": {
+  "mesh_id": "D007592",
+  "mesh_label": "Joint Diseases",
+  "via_synonym": "Arthropathies"
+ },
+ "neoplasms, experimental": {
+  "mesh_id": "D009374",
+  "mesh_label": "Neoplasms, Experimental"
+ },
+ "lentigines": null,
+ "syn|lentigines": {
+  "mesh_id": "D007911",
+  "mesh_label": "Lentigo",
+  "via_synonym": "Lentigines"
+ },
+ "psychotic disorders": {
+  "mesh_id": "D011618",
+  "mesh_label": "Psychotic Disorders"
+ },
+ "nephritis": {
+  "mesh_id": "D009393",
+  "mesh_label": "Nephritis"
+ },
+ "syncope": {
+  "mesh_id": "D013575",
+  "mesh_label": "Syncope"
+ },
+ "intestinal diseases": {
+  "mesh_id": "D007410",
+  "mesh_label": "Intestinal Diseases"
+ },
+ "kidney diseases": {
+  "mesh_id": "D007674",
+  "mesh_label": "Kidney Diseases"
+ },
+ "renal and urologic diseases": null,
+ "syn|renal and urologic diseases": null,
+ "paralysis, neurologic": null,
+ "syn|paralysis, neurologic": null,
+ "tooth diseases": {
+  "mesh_id": "D014076",
+  "mesh_label": "Tooth Diseases"
+ },
+ "fever": {
+  "mesh_id": "D005334",
+  "mesh_label": "Fever"
+ },
+ "earache": {
+  "mesh_id": "D004433",
+  "mesh_label": "Earache"
+ },
+ "plantar keratoderma": null,
+ "syn|plantar keratoderma": null,
+ "wound": null,
+ "syn|wound": null,
+ "headache": {
+  "mesh_id": "D006261",
+  "mesh_label": "Headache"
+ },
+ "burns": {
+  "mesh_id": "D002056",
+  "mesh_label": "Burns"
+ },
+ "gastritis": {
+  "mesh_id": "D005756",
+  "mesh_label": "Gastritis"
+ },
+ "urinary bladder diseases": {
+  "mesh_id": "D001745",
+  "mesh_label": "Urinary Bladder Diseases"
+ },
+ "chilblain": null,
+ "syn|chilblain": {
+  "mesh_id": "D002647",
+  "mesh_label": "Chilblains",
+  "via_synonym": "Chilblain"
+ },
+ "foot diseases": {
+  "mesh_id": "D005534",
+  "mesh_label": "Foot Diseases"
+ },
+ "narcotics": {
+  "mesh_id": "D009294",
+  "mesh_label": "Narcotics"
+ },
+ "arthralgia": {
+  "mesh_id": "D018771",
+  "mesh_label": "Arthralgia"
+ },
+ "appetite stimulants": {
+  "mesh_id": "D019167",
+  "mesh_label": "Appetite Stimulants"
+ },
+ "cardiotonic agents": {
+  "mesh_id": "D002316",
+  "mesh_label": "Cardiotonic Agents"
+ },
+ "mercury poisoning": {
+  "mesh_id": "D008630",
+  "mesh_label": "Mercury Poisoning"
+ },
+ "erectile dysfunction": {
+  "mesh_id": "D007172",
+  "mesh_label": "Erectile Dysfunction"
+ },
+ "recovery of function": {
+  "mesh_id": "D020127",
+  "mesh_label": "Recovery of Function"
+ },
+ "hernia": {
+  "mesh_id": "D006547",
+  "mesh_label": "Hernia"
+ },
+ "disease": {
+  "mesh_id": "D004194",
+  "mesh_label": "Disease"
+ },
+ "tapeworm infections": null,
+ "syn|tapeworm infections": {
+  "mesh_id": "D002590",
+  "mesh_label": "Cestode Infections",
+  "via_synonym": "Tapeworm Infections"
+ },
+ "pulmonary disease": null,
+ "syn|pulmonary disease": {
+  "mesh_id": "D008171",
+  "mesh_label": "Lung Diseases",
+  "via_synonym": "Pulmonary Disease"
+ },
+ "pulmonary tuberculosis": null,
+ "syn|pulmonary tuberculosis": {
+  "mesh_id": "D014397",
+  "mesh_label": "Tuberculosis, Pulmonary",
+  "via_synonym": "Pulmonary Tuberculosis"
+ },
+ "chronic rhinitis": null,
+ "syn|chronic rhinitis": null,
+ "uterine contractions": null,
+ "syn|uterine contractions": {
+  "mesh_id": "D014590",
+  "mesh_label": "Uterine Contraction",
+  "via_synonym": "Uterine Contractions"
+ },
+ "alcohol withdrawal syndrome": null,
+ "syn|alcohol withdrawal syndrome": null,
+ "fertility agents, female": {
+  "mesh_id": "D005300",
+  "mesh_label": "Fertility Agents, Female"
+ },
+ "rhinitis": {
+  "mesh_id": "D012220",
+  "mesh_label": "Rhinitis"
+ },
+ "respiratory tract infections": {
+  "mesh_id": "D012141",
+  "mesh_label": "Respiratory Tract Infections"
+ },
+ "bronchitis": {
+  "mesh_id": "D001991",
+  "mesh_label": "Bronchitis"
+ },
+ "hypnotics and sedatives": {
+  "mesh_id": "D006993",
+  "mesh_label": "Hypnotics and Sedatives"
+ },
+ "diarrhea, chronic": null,
+ "syn|diarrhea, chronic": null,
+ "contusions": {
+  "mesh_id": "D003288",
+  "mesh_label": "Contusions"
+ },
+ "placenta displacement": null,
+ "syn|placenta displacement": null,
+ "schizophrenia": {
+  "mesh_id": "D012559",
+  "mesh_label": "Schizophrenia"
+ },
+ "voice disorders": {
+  "mesh_id": "D014832",
+  "mesh_label": "Voice Disorders"
+ },
+ "anthelmintics": {
+  "mesh_id": "D000871",
+  "mesh_label": "Anthelmintics"
+ },
+ "blisters, vesicular": null,
+ "syn|blisters, vesicular": null,
+ "neoplasms, suspected": null,
+ "syn|neoplasms, suspected": null,
+ "fistula": {
+  "mesh_id": "D005402",
+  "mesh_label": "Fistula"
+ },
+ "foreign body": null,
+ "syn|foreign body": null,
+ "dermatological diseases": null,
+ "syn|dermatological diseases": null,
+ "skin discoloration": null,
+ "syn|skin discoloration": null,
+ "malaria, vivax": {
+  "mesh_id": "D016780",
+  "mesh_label": "Malaria, Vivax"
+ },
+ "purulent discharge": null,
+ "syn|purulent discharge": null,
+ "erythema": {
+  "mesh_id": "D004890",
+  "mesh_label": "Erythema"
+ },
+ "urinary tract disorders": null,
+ "syn|urinary tract disorders": null,
+ "tendon injuries": {
+  "mesh_id": "D013708",
+  "mesh_label": "Tendon Injuries"
+ },
+ "spider bites": {
+  "mesh_id": "D001098",
+  "mesh_label": "Spider Bites"
+ },
+ "antidotes": {
+  "mesh_id": "D000931",
+  "mesh_label": "Antidotes"
+ },
+ "urinary retention": {
+  "mesh_id": "D016055",
+  "mesh_label": "Urinary Retention"
+ },
+ "antipyretics": {
+  "mesh_id": "D058633",
+  "mesh_label": "Antipyretics"
+ },
+ "appetite": {
+  "mesh_id": "D001066",
+  "mesh_label": "Appetite"
+ },
+ "laxatives": {
+  "mesh_id": "D054368",
+  "mesh_label": "Laxatives"
+ },
+ "respiratory secretions": null,
+ "syn|respiratory secretions": null,
+ "cognitive enhancers": null,
+ "syn|cognitive enhancers": {
+  "mesh_id": "D018697",
+  "mesh_label": "Nootropic Agents",
+  "via_synonym": "Cognitive Enhancers"
+ },
+ "thoracic organ diseases": null,
+ "syn|thoracic organ diseases": null,
+ "burns, thermal": null,
+ "syn|burns, thermal": null,
+ "muscle spasms": null,
+ "syn|muscle spasms": {
+  "mesh_id": "D013035",
+  "mesh_label": "Spasm",
+  "via_synonym": "Muscle Spasms"
+ },
+ "gastrointestinal motility disorders": null,
+ "syn|gastrointestinal motility disorders": null,
+ "vertigo": {
+  "mesh_id": "D014717",
+  "mesh_label": "Vertigo"
+ },
+ "cerebral congestion": null,
+ "syn|cerebral congestion": null,
+ "astringents": {
+  "mesh_id": "D001252",
+  "mesh_label": "Astringents"
+ },
+ "uric acid nephrolithiasis": null,
+ "syn|uric acid nephrolithiasis": null,
+ "fetal death": {
+  "mesh_id": "D005313",
+  "mesh_label": "Fetal Death"
+ },
+ "gastric distention": null,
+ "syn|gastric distention": null,
+ "constipation": {
+  "mesh_id": "D003248",
+  "mesh_label": "Constipation"
+ },
+ "spasms": null,
+ "syn|spasms": null,
+ "ejaculation disorders": null,
+ "syn|ejaculation disorders": null,
+ "anti-inflammatory agents": {
+  "mesh_id": "D000893",
+  "mesh_label": "Anti-Inflammatory Agents"
+ },
+ "humoral disorders": null,
+ "syn|humoral disorders": null,
+ "cardiac diseases": null,
+ "syn|cardiac diseases": {
+  "mesh_id": "D006331",
+  "mesh_label": "Heart Diseases",
+  "via_synonym": "Cardiac Diseases"
+ },
+ "visual disturbances": null,
+ "syn|visual disturbances": null,
+ "neoplasms, cancer": null,
+ "syn|neoplasms, cancer": null,
+ "sprain": null,
+ "syn|sprain": {
+  "mesh_id": "D013180",
+  "mesh_label": "Sprains and Strains",
+  "via_synonym": "Sprain"
+ },
+ "cramps, spasmodic": null,
+ "syn|cramps, spasmodic": null,
+ "muscle diseases": null,
+ "syn|muscle diseases": null,
+ "alcoholism": {
+  "mesh_id": "D000437",
+  "mesh_label": "Alcoholism"
+ },
+ "cognitive dysfunction": {
+  "mesh_id": "D060825",
+  "mesh_label": "Cognitive Dysfunction"
+ },
+ "muscle disorders": null,
+ "syn|muscle disorders": {
+  "mesh_id": "D009135",
+  "mesh_label": "Muscular Diseases",
+  "via_synonym": "Muscle Disorders"
+ },
+ "hiccups": null,
+ "syn|hiccups": {
+  "mesh_id": "D006606",
+  "mesh_label": "Hiccup",
+  "via_synonym": "Hiccups"
+ },
+ "amblyopia": {
+  "mesh_id": "D000550",
+  "mesh_label": "Amblyopia"
+ },
+ "testicular diseases": {
+  "mesh_id": "D013733",
+  "mesh_label": "Testicular Diseases"
+ },
+ "sciatica": {
+  "mesh_id": "D012585",
+  "mesh_label": "Sciatica"
+ },
+ "depilatories": null,
+ "syn|depilatories": null,
+ "trauma, injuries": null,
+ "syn|trauma, injuries": null,
+ "trauma, traumatic": null,
+ "syn|trauma, traumatic": null,
+ "halitosis": {
+  "mesh_id": "D006209",
+  "mesh_label": "Halitosis"
+ },
+ "mouth diseases": {
+  "mesh_id": "D009059",
+  "mesh_label": "Mouth Diseases"
+ },
+ "wound, healing": null,
+ "syn|wound, healing": null,
+ "tuberculosis, scrofulous": null,
+ "syn|tuberculosis, scrofulous": null,
+ "skin neoplasms": {
+  "mesh_id": "D012878",
+  "mesh_label": "Skin Neoplasms"
+ },
+ "oral ulcer": {
+  "mesh_id": "D019226",
+  "mesh_label": "Oral Ulcer"
+ },
+ "rabies": {
+  "mesh_id": "D011818",
+  "mesh_label": "Rabies"
+ },
+ "breast neoplasms": {
+  "mesh_id": "D001943",
+  "mesh_label": "Breast Neoplasms"
+ },
+ "uvulitis": null,
+ "syn|uvulitis": null,
+ "gastroenteritis": {
+  "mesh_id": "D005759",
+  "mesh_label": "Gastroenteritis"
+ },
+ "squill": null,
+ "syn|squill": null,
+ "vision, low": {
+  "mesh_id": "D015354",
+  "mesh_label": "Vision, Low"
+ },
+ "hypothermia": {
+  "mesh_id": "D007035",
+  "mesh_label": "Hypothermia"
+ },
+ "chronic obstructive pulmonary disease": null,
+ "syn|chronic obstructive pulmonary disease": {
+  "mesh_id": "D029424",
+  "mesh_label": "Pulmonary Disease, Chronic Obstructive",
+  "via_synonym": "Chronic Obstructive Pulmonary Disease"
+ },
+ "dandruff": {
+  "mesh_id": "D063807",
+  "mesh_label": "Dandruff"
+ },
+ "skin dryness": null,
+ "syn|skin dryness": null,
+ "wound, nonpenetrating": null,
+ "syn|wound, nonpenetrating": {
+  "mesh_id": "D014949",
+  "mesh_label": "Wounds, Nonpenetrating",
+  "via_synonym": "Wound, Nonpenetrating"
+ },
+ "freckles": null,
+ "syn|freckles": {
+  "mesh_id": "D008548",
+  "mesh_label": "Melanosis",
+  "via_synonym": "Freckles"
+ },
+ "hearing loss, sensorineural": {
+  "mesh_id": "D006319",
+  "mesh_label": "Hearing Loss, Sensorineural"
+ },
+ "antiperspirants": {
+  "mesh_id": "D051520",
+  "mesh_label": "Antiperspirants"
+ },
+ "tendons": {
+  "mesh_id": "D013710",
+  "mesh_label": "Tendons"
+ },
+ "induction of labor": null,
+ "syn|induction of labor": {
+  "mesh_id": "D007751",
+  "mesh_label": "Labor, Induced",
+  "via_synonym": "Induction of Labor"
+ },
+ "musculoskeletal pain": {
+  "mesh_id": "D059352",
+  "mesh_label": "Musculoskeletal Pain"
+ },
+ "aphrodisiac agents, antagonists": null,
+ "syn|aphrodisiac agents, antagonists": null,
+ "ecchymosis": {
+  "mesh_id": "D004438",
+  "mesh_label": "Ecchymosis"
+ },
+ "mucocutaneous ulcer": null,
+ "syn|mucocutaneous ulcer": null,
+ "cold injury": {
+  "mesh_id": "D000067390",
+  "mesh_label": "Cold Injury"
+ },
+ "visual impairment": null,
+ "syn|visual impairment": {
+  "mesh_id": "D014786",
+  "mesh_label": "Vision Disorders",
+  "via_synonym": "Visual Impairment"
+ },
+ "psychosis": null,
+ "syn|psychosis": {
+  "mesh_id": "D011618",
+  "mesh_label": "Psychotic Disorders",
+  "via_synonym": "Psychosis"
+ },
+ "syn|poisoning, animal": null,
+ "galactogogue": null,
+ "syn|galactogogue": null,
+ "viral warts": null,
+ "syn|viral warts": null,
+ "vomiting": {
+  "mesh_id": "D014839",
+  "mesh_label": "Vomiting"
+ },
+ "uterine abscess": null,
+ "syn|uterine abscess": null,
+ "anesthesia, general": {
+  "mesh_id": "D000768",
+  "mesh_label": "Anesthesia, General"
+ },
+ "foreign body migration": null,
+ "syn|foreign body migration": {
+  "mesh_id": "D005548",
+  "mesh_label": "Foreign-Body Migration",
+  "via_synonym": "Foreign Body Migration"
+ },
+ "anxiety": {
+  "mesh_id": "D001007",
+  "mesh_label": "Anxiety"
+ },
+ "chest pain": {
+  "mesh_id": "D002637",
+  "mesh_label": "Chest Pain"
+ },
+ "neoplasms": {
+  "mesh_id": "D009369",
+  "mesh_label": "Neoplasms"
+ },
+ "infant diseases": null,
+ "syn|infant diseases": null,
+ "nail diseases": {
+  "mesh_id": "D009260",
+  "mesh_label": "Nail Diseases"
+ },
+ "poisoning, copper": null,
+ "syn|poisoning, copper": null,
+ "cantharidin toxicity": null,
+ "syn|cantharidin toxicity": null,
+ "uterine displacement": null,
+ "syn|uterine displacement": null,
+ "pleurisy": {
+  "mesh_id": "D010998",
+  "mesh_label": "Pleurisy"
+ },
+ "chills": {
+  "mesh_id": "D023341",
+  "mesh_label": "Chills"
+ },
+ "overeating": null,
+ "syn|overeating": {
+  "mesh_id": "D006963",
+  "mesh_label": "Hyperphagia",
+  "via_synonym": "Overeating"
+ },
+ "gastric spasms": null,
+ "syn|gastric spasms": null,
+ "hemorrhage, internal": null,
+ "syn|hemorrhage, internal": null,
+ "epistaxis": {
+  "mesh_id": "D004844",
+  "mesh_label": "Epistaxis"
+ },
+ "dyspnea": {
+  "mesh_id": "D004417",
+  "mesh_label": "Dyspnea"
+ },
+ "frostbite": {
+  "mesh_id": "D005627",
+  "mesh_label": "Frostbite"
+ },
+ "urinary incontinence": {
+  "mesh_id": "D014549",
+  "mesh_label": "Urinary Incontinence"
+ },
+ "nipple disorders": null,
+ "syn|nipple disorders": null,
+ "hypopituitarism": {
+  "mesh_id": "D007018",
+  "mesh_label": "Hypopituitarism"
+ },
+ "spermatic cyst": null,
+ "syn|spermatic cyst": null,
+ "hernias": null,
+ "syn|hernias": null,
+ "hemorrhage, eye": null,
+ "syn|hemorrhage, eye": {
+  "mesh_id": "D005130",
+  "mesh_label": "Eye Hemorrhage",
+  "via_synonym": "Hemorrhage, Eye"
+ },
+ "sweating, abnormal": null,
+ "syn|sweating, abnormal": null,
+ "sexual dysfunction": null,
+ "syn|sexual dysfunction": null,
+ "spontaneous abortion": null,
+ "syn|spontaneous abortion": {
+  "mesh_id": "D000022",
+  "mesh_label": "Abortion, Spontaneous",
+  "via_synonym": "Spontaneous Abortion"
+ },
+ "hemorrhage": {
+  "mesh_id": "D006470",
+  "mesh_label": "Hemorrhage"
+ },
+ "infertility": {
+  "mesh_id": "D007246",
+  "mesh_label": "Infertility"
+ },
+ "purulent secretions": null,
+ "syn|purulent secretions": null,
+ "tongue diseases": {
+  "mesh_id": "D014060",
+  "mesh_label": "Tongue Diseases"
+ },
+ "breast diseases": {
+  "mesh_id": "D001941",
+  "mesh_label": "Breast Diseases"
+ },
+ "rectal diseases": {
+  "mesh_id": "D012002",
+  "mesh_label": "Rectal Diseases"
+ },
+ "skin irritation": null,
+ "syn|skin irritation": null,
+ "antidiuretic agents": {
+  "mesh_id": "D050034",
+  "mesh_label": "Antidiuretic Agents"
+ },
+ "heat exhaustion": {
+  "mesh_id": "D006359",
+  "mesh_label": "Heat Exhaustion"
+ },
+ "nausea": {
+  "mesh_id": "D009325",
+  "mesh_label": "Nausea"
+ },
+ "syn|abortion": null,
+ "acidosis": {
+  "mesh_id": "D000138",
+  "mesh_label": "Acidosis"
+ },
+ "malaria, tropical": null,
+ "syn|malaria, tropical": null,
+ "lacrimal fistula": null,
+ "syn|lacrimal fistula": null,
+ "sputum": {
+  "mesh_id": "D013183",
+  "mesh_label": "Sputum"
+ },
+ "uric aciduria": null,
+ "syn|uric aciduria": null,
+ "colic": {
+  "mesh_id": "D003085",
+  "mesh_label": "Colic"
+ },
+ "mental disorders": {
+  "mesh_id": "D001523",
+  "mesh_label": "Mental Disorders"
+ },
+ "hyperpigmentation": {
+  "mesh_id": "D017495",
+  "mesh_label": "Hyperpigmentation"
+ },
+ "analgesics, non-narcotic": {
+  "mesh_id": "D018712",
+  "mesh_label": "Analgesics, Non-Narcotic"
+ },
+ "male urogenital diseases": {
+  "mesh_id": "D052801",
+  "mesh_label": "Male Urogenital Diseases"
+ },
+ "sprains and strains": {
+  "mesh_id": "D013180",
+  "mesh_label": "Sprains and Strains"
+ },
+ "gastroesophageal reflux disease": null,
+ "syn|gastroesophageal reflux disease": {
+  "mesh_id": "D005764",
+  "mesh_label": "Gastroesophageal Reflux",
+  "via_synonym": "Gastroesophageal Reflux Disease"
+ },
+ "pneumonia": {
+  "mesh_id": "D011014",
+  "mesh_label": "Pneumonia"
+ },
+ "prurigo": {
+  "mesh_id": "D011536",
+  "mesh_label": "Prurigo"
+ },
+ "dental enamel hypoplasia": {
+  "mesh_id": "D003744",
+  "mesh_label": "Dental Enamel Hypoplasia"
+ },
+ "tracheitis": {
+  "mesh_id": "D014136",
+  "mesh_label": "Tracheitis"
+ },
+ "fatigue": {
+  "mesh_id": "D005221",
+  "mesh_label": "Fatigue"
+ },
+ "acne vulgaris": {
+  "mesh_id": "D000152",
+  "mesh_label": "Acne Vulgaris"
+ },
+ "respiratory distress": null,
+ "syn|respiratory distress": null,
+ "mouth odor": null,
+ "syn|mouth odor": null,
+ "neoplasms, nose": null,
+ "syn|neoplasms, nose": {
+  "mesh_id": "D009669",
+  "mesh_label": "Nose Neoplasms",
+  "via_synonym": "Neoplasms, Nose"
+ },
+ "otitis": {
+  "mesh_id": "D010031",
+  "mesh_label": "Otitis"
+ },
+ "diaphragm diseases": null,
+ "syn|diaphragm diseases": null,
+ "pregnancy complications, labor": null,
+ "syn|pregnancy complications, labor": null,
+ "labor, obstetric": {
+  "mesh_id": "D007743",
+  "mesh_label": "Labor, Obstetric"
+ },
+ "respiratory distress syndrome": {
+  "mesh_id": "D012128",
+  "mesh_label": "Respiratory Distress Syndrome"
+ },
+ "postpartum vertigo": null,
+ "syn|postpartum vertigo": null,
+ "sweating": {
+  "mesh_id": "D013546",
+  "mesh_label": "Sweating"
+ },
+ "gastrointestinal distress": null,
+ "syn|gastrointestinal distress": null,
+ "cough, chronic": null,
+ "syn|cough, chronic": {
+  "mesh_id": "D000096822",
+  "mesh_label": "Chronic Cough",
+  "via_synonym": "Cough, Chronic"
+ },
+ "paralysis": {
+  "mesh_id": "D010243",
+  "mesh_label": "Paralysis"
+ },
+ "proptosis": null,
+ "syn|proptosis": {
+  "mesh_id": "D005094",
+  "mesh_label": "Exophthalmos",
+  "via_synonym": "Proptosis"
+ },
+ "gingivitis": {
+  "mesh_id": "D005891",
+  "mesh_label": "Gingivitis"
+ },
+ "neck pain": {
+  "mesh_id": "D019547",
+  "mesh_label": "Neck Pain"
+ },
+ "nipple diseases": null,
+ "syn|nipple diseases": null,
+ "wound pain": null,
+ "syn|wound pain": null,
+ "muscle hypertrophy": null,
+ "syn|muscle hypertrophy": null,
+ "lochia": null,
+ "syn|lochia": null,
+ "syn|sleep disorders": {
+  "mesh_id": "D012893",
+  "mesh_label": "Sleep Wake Disorders",
+  "via_synonym": "Sleep Disorders"
+ },
+ "wound, non-healing": null,
+ "syn|wound, non-healing": null,
+ "testis diseases": null,
+ "syn|testis diseases": null,
+ "menstrual disorders": null,
+ "syn|menstrual disorders": null,
+ "inflammation, pathological": null,
+ "syn|inflammation, pathological": null,
+ "lead poisoning": {
+  "mesh_id": "D007855",
+  "mesh_label": "Lead Poisoning"
+ },
+ "marine poisoning": null,
+ "syn|marine poisoning": null,
+ "tooth mobility": {
+  "mesh_id": "D014086",
+  "mesh_label": "Tooth Mobility"
+ },
+ "uterine prolapse": {
+  "mesh_id": "D014596",
+  "mesh_label": "Uterine Prolapse"
+ },
+ "obstetric labor": null,
+ "syn|obstetric labor": {
+  "mesh_id": "D007743",
+  "mesh_label": "Labor, Obstetric",
+  "via_synonym": "Obstetric Labor"
+ },
+ "kidney calculi": {
+  "mesh_id": "D007669",
+  "mesh_label": "Kidney Calculi"
+ },
+ "musculoskeletal diseases": {
+  "mesh_id": "D009140",
+  "mesh_label": "Musculoskeletal Diseases"
+ },
+ "uterine spasms": null,
+ "syn|uterine spasms": null,
+ "mastitis, breast": null,
+ "syn|mastitis, breast": null,
+ "mucin": null,
+ "syn|mucin": null,
+ "respiratory mucus": null,
+ "syn|respiratory mucus": null,
+ "decongestants": null,
+ "syn|decongestants": {
+  "mesh_id": "D014663",
+  "mesh_label": "Nasal Decongestants",
+  "via_synonym": "Decongestants"
+ },
+ "skin diseases": {
+  "mesh_id": "D012871",
+  "mesh_label": "Skin Diseases"
+ },
+ "hordeolum": {
+  "mesh_id": "D006726",
+  "mesh_label": "Hordeolum"
+ },
+ "tonic agents": null,
+ "syn|tonic agents": null,
+ "muscle spasticity": {
+  "mesh_id": "D009128",
+  "mesh_label": "Muscle Spasticity"
+ },
+ "neuropathy, peripheral": null,
+ "syn|neuropathy, peripheral": {
+  "mesh_id": "D010523",
+  "mesh_label": "Peripheral Nervous System Diseases",
+  "via_synonym": "Neuropathy, Peripheral"
+ },
+ "cough, dry": null,
+ "syn|cough, dry": null,
+ "gangrene": {
+  "mesh_id": "D005734",
+  "mesh_label": "Gangrene"
+ },
+ "pterygium": {
+  "mesh_id": "D011625",
+  "mesh_label": "Pterygium"
+ },
+ "nephrolithiasis": {
+  "mesh_id": "D053040",
+  "mesh_label": "Nephrolithiasis"
+ },
+ "meninges": {
+  "mesh_id": "D008578",
+  "mesh_label": "Meninges"
+ },
+ "orchitis": {
+  "mesh_id": "D009920",
+  "mesh_label": "Orchitis"
+ },
+ "semen": {
+  "mesh_id": "D012661",
+  "mesh_label": "Semen"
+ },
+ "spermatic cysts": null,
+ "syn|spermatic cysts": null,
+ "fomentation": null,
+ "syn|fomentation": null,
+ "urinary tract diseases": null,
+ "syn|urinary tract diseases": {
+  "mesh_id": "D014570",
+  "mesh_label": "Urologic Diseases",
+  "via_synonym": "Urinary Tract Diseases"
+ },
+ "foreign body in ear": null,
+ "syn|foreign body in ear": null,
+ "musculoskeletal disorders": null,
+ "syn|musculoskeletal disorders": null,
+ "gastrointestinal motility agents": null,
+ "syn|gastrointestinal motility agents": null,
+ "hyperhidrosis": {
+  "mesh_id": "D006945",
+  "mesh_label": "Hyperhidrosis"
+ },
+ "hypertrophy, cardiac": null,
+ "syn|hypertrophy, cardiac": {
+  "mesh_id": "D006332",
+  "mesh_label": "Cardiomegaly",
+  "via_synonym": "Hypertrophy, Cardiac"
+ },
+ "vision disorders": {
+  "mesh_id": "D014786",
+  "mesh_label": "Vision Disorders"
+ },
+ "parotitis": {
+  "mesh_id": "D010309",
+  "mesh_label": "Parotitis"
+ },
+ "delirium": {
+  "mesh_id": "D003693",
+  "mesh_label": "Delirium"
+ },
+ "callosities": {
+  "mesh_id": "D002145",
+  "mesh_label": "Callosities"
+ },
+ "wounds and injuries": {
+  "mesh_id": "D014947",
+  "mesh_label": "Wounds and Injuries"
+ },
+ "placenta, retained": {
+  "mesh_id": "D018457",
+  "mesh_label": "Placenta, Retained"
+ },
+ "blister": {
+  "mesh_id": "D001768",
+  "mesh_label": "Blister"
+ },
+ "splenic diseases": {
+  "mesh_id": "D013158",
+  "mesh_label": "Splenic Diseases"
+ },
+ "carcinoma": {
+  "mesh_id": "D002277",
+  "mesh_label": "Carcinoma"
+ },
+ "pharyngeal diseases": {
+  "mesh_id": "D010608",
+  "mesh_label": "Pharyngeal Diseases"
+ },
+ "warts": {
+  "mesh_id": "D014860",
+  "mesh_label": "Warts"
+ },
+ "malaria": {
+  "mesh_id": "D008288",
+  "mesh_label": "Malaria"
+ }
+}

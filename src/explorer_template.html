@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Was Pliny right? Remedy explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #e8ece4; --panel: #f3f5f0; --ink: #1f2a24; --muted: #5d6a62; --rule: #c9d1c6;
+    --herb: #3f5a3a; --supported: #2f7d4f; --partly: #b8892a; --contradicted: #a33a3a; --unconfirmed: #c4b896; --untested: #8e979b;
+    --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    --sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --paper: #171d19; --panel: #1f2721; --ink: #e3e8e1; --muted: #a3afa6; --rule: #344038;
+            --herb: #9cbf8f; --unconfirmed: #8c835f; --untested: #7b8589; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --paper: #171d19; --panel: #1f2721; --ink: #e3e8e1; --muted: #a3afa6; --rule: #344038;
+          --herb: #9cbf8f; --unconfirmed: #8c835f; --untested: #7b8589; color-scheme: dark; }
+  :root { box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px);
+          background: var(--paper); }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  .detail h3 { font: 600 15px var(--sans); margin: 18px 0 6px; }
+  body { background: var(--paper); color: var(--ink); font: 15px/1.5 var(--sans);
+         display: grid; grid-template-columns: 290px 1fr 380px; height: 100%; }
+  aside, section { overflow-y: auto; }
+  .side { padding: 22px 18px; border-right: 1px solid var(--rule); background: var(--panel); }
+  h1 { font: 600 34px/1.05 var(--serif); margin: 0 0 6px; }
+  .lede { color: var(--muted); margin: 0 0 18px; font-size: 14px; }
+  .modes { display: flex; gap: 6px; margin-bottom: 10px; }
+  .modes button { flex: 1; font: 600 13px var(--sans); padding: 7px; border: 1px solid var(--rule);
+                  background: transparent; color: var(--ink); border-radius: 4px; cursor: pointer; }
+  .modes button[aria-pressed="true"] { background: var(--herb); color: var(--panel); border-color: var(--herb); }
+  input[type=search] { width: 100%; padding: 8px 10px; font: 14px var(--sans); border: 1px solid var(--rule);
+                       border-radius: 4px; background: var(--paper); color: var(--ink); margin-bottom: 8px; }
+  ul.list { list-style: none; margin: 0 0 18px; padding: 0; max-height: 42vh; overflow-y: auto;
+            border-top: 1px solid var(--rule); }
+  ul.list li { padding: 6px 4px; border-bottom: 1px solid var(--rule); cursor: pointer; display: flex;
+               justify-content: space-between; gap: 8px; }
+  ul.list li:hover, ul.list li:focus { background: var(--paper); outline: none; }
+  ul.list li[aria-selected="true"] { font-weight: 600; color: var(--herb); }
+  ul.list .n { color: var(--muted); font-size: 13px; }
+  .legend label { display: flex; align-items: center; gap: 8px; margin: 4px 0; cursor: pointer; font-size: 14px; }
+  .sw { width: 22px; height: 4px; border-radius: 2px; display: inline-block; }
+  .note { color: var(--muted); font-size: 12.5px; margin-top: 18px; }
+  main { position: relative; overflow: hidden; }
+  svg { width: 100%; height: 100%; display: block; }
+  .detail { padding: 22px 20px; border-left: 1px solid var(--rule); background: var(--panel); }
+  .detail h2 { font: 600 26px/1.15 var(--serif); margin: 0 0 4px; }
+  .detail .sci { font: italic 500 18px var(--serif); color: var(--muted); margin: 0 0 14px; }
+  .verdict { display: inline-block; padding: 2px 10px; border-radius: 12px; color: #fff; font-weight: 600; font-size: 13px; }
+  blockquote { margin: 12px 0; padding: 0 0 0 12px; border-left: 3px solid var(--rule);
+               font: italic 500 17px/1.4 var(--serif); }
+  blockquote cite { display: block; font: 13px var(--sans); color: var(--muted); font-style: normal; margin-top: 2px; }
+  .paper { margin: 10px 0; font-size: 14px; }
+  .paper a { color: var(--herb); }
+  .paper .meta { color: var(--muted); font-size: 12.5px; }
+  .empty { color: var(--muted); }
+  .disclaimer { margin-top: 22px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 10px; }
+  @media (max-width: 1000px) {
+    body { grid-template-columns: 1fr; height: auto; }
+    main { height: 560px; }
+    .side, .detail { border: none; }
+  }
+</style>
+</head>
+<body>
+<aside class="side">
+  <h1>Was Pliny right?</h1>
+  <p class="lede">Remedies from Pliny’s <em>Natural History</em>, Book 20, checked against modern literature.</p>
+  <div class="modes" role="group" aria-label="View by">
+    <button id="mode-plant" aria-pressed="true">By plant</button>
+    <button id="mode-condition" aria-pressed="false">By condition</button>
+  </div>
+  <input id="search" type="search" placeholder="Search…" aria-label="Search">
+  <ul id="list" class="list" role="listbox" aria-label="Choose an item"></ul>
+  <div class="legend" id="legend"></div>
+  <p class="note" id="totals"></p>
+</aside>
+
+<main><svg id="graph" role="img" aria-label="Graph of remedies"></svg></main>
+
+<section class="detail" id="detail" aria-live="polite">
+  <p class="empty">Click a remedy in the graph to see Pliny’s words and the modern evidence.</p>
+</section>
+
+<script id="data" type="application/json">__GRAPH_DATA__</script>
+<script>
+const G = JSON.parse(document.getElementById("data").textContent);
+const VERDICTS = {
+  supported: "supported by a human study or review",
+  partly_studied: "partly studied (animal or lab work)",
+  contradicted: "contradicted (no effect in humans)",
+  not_confirmed: "papers exist, none tests this remedy",
+  untested: "no paper on this plant and condition",
+};
+const COLOR = v => getComputedStyle(document.documentElement).getPropertyValue(
+  {supported: "--supported", partly_studied: "--partly", contradicted: "--contradicted", not_confirmed: "--unconfirmed", untested: "--untested"}[v]).trim();
+const plants = Object.fromEntries(G.plants.map(p => [p.id, p]));
+const conds = Object.fromEntries(G.conditions.map(c => [c.id, c]));
+const shown = new Set(Object.keys(VERDICTS));
+let mode = "plant", current = null;
+
+function countBy(key) {
+  const n = {};
+  G.remedies.forEach(r => n[r[key]] = (n[r[key]] || 0) + r.claims.length);
+  return n;
+}
+const claimsPerPlant = countBy("plant"), claimsPerCond = countBy("condition");
+
+// ---------- legend and totals
+const legend = document.getElementById("legend");
+Object.entries(VERDICTS).forEach(([v, text]) => {
+  const n = G.remedies.filter(r => r.verdict === v).length;
+  const l = document.createElement("label");
+  l.innerHTML = `<input type="checkbox" checked><span class="sw" style="background:${COLOR(v)}"></span>${text} <span class="n">(${n})</span>`;
+  l.querySelector("input").addEventListener("change", e => { e.target.checked ? shown.add(v) : shown.delete(v); draw(); });
+  legend.appendChild(l);
+});
+const nClaims = G.remedies.reduce((s, r) => s + r.claims.length, 0);
+document.getElementById("totals").textContent =
+  `${G.plants.length} plants, ${G.conditions.length} conditions, ${G.remedies.length} remedies, ${nClaims} claims. Counts are plant-condition remedies.`;
+
+// ---------- list
+function fillList() {
+  const q = document.getElementById("search").value.toLowerCase();
+  const items = mode === "plant"
+    ? G.plants.map(p => ({id: p.id, label: p.name, sub: p.scientific, n: claimsPerPlant[p.id] || 0}))
+    : G.conditions.map(c => ({id: c.id, label: c.label, sub: "", n: claimsPerCond[c.id] || 0}));
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  items.filter(i => (i.label + " " + (i.sub || "")).toLowerCase().includes(q))
+       .sort((a, b) => b.n - a.n)
+       .forEach(i => {
+         const li = document.createElement("li");
+         li.tabIndex = 0; li.setAttribute("role", "option");
+         li.setAttribute("aria-selected", i.id === current);
+         li.innerHTML = `<span>${esc(i.label)}</span><span class="n">${i.n}</span>`;
+         const pick = () => { current = i.id; fillList(); draw(); };
+         li.addEventListener("click", pick);
+         li.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
+         list.appendChild(li);
+       });
+}
+function setMode(m) {
+  mode = m; current = null;
+  document.getElementById("mode-plant").setAttribute("aria-pressed", m === "plant");
+  document.getElementById("mode-condition").setAttribute("aria-pressed", m === "condition");
+  const first = m === "plant" ? G.plants.slice().sort((a, b) => (claimsPerPlant[b.id] || 0) - (claimsPerPlant[a.id] || 0))[0]
+                              : G.conditions.slice().sort((a, b) => (claimsPerCond[b.id] || 0) - (claimsPerCond[a.id] || 0))[0];
+  current = first && first.id;
+  fillList(); draw();
+}
+document.getElementById("mode-plant").onclick = () => setMode("plant");
+document.getElementById("mode-condition").onclick = () => setMode("condition");
+document.getElementById("search").oninput = fillList;
+
+// ---------- radial graph
+const svg = document.getElementById("graph"), NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent) {
+  const e = document.createElementNS(NS, tag);
+  Object.entries(attrs).forEach(([k, v]) => e.setAttribute(k, v));
+  (parent || svg).appendChild(e); return e;
+}
+const order = ["supported", "partly_studied", "contradicted", "not_confirmed", "untested"];
+function draw() {
+  svg.innerHTML = "";
+  if (!current) return;
+  const W = svg.clientWidth || 800, H = svg.clientHeight || 700, cx = W / 2, cy = H / 2;
+  const centreKey = mode === "plant" ? "plant" : "condition", outerKey = mode === "plant" ? "condition" : "plant";
+  const rem = G.remedies.filter(r => r[centreKey] === current && shown.has(r.verdict))
+                        .sort((a, b) => order.indexOf(a.verdict) - order.indexOf(b.verdict) || b.claims.length - a.claims.length);
+  const centreLabel = mode === "plant" ? plants[current].name : conds[current].label;
+  const R = Math.min(W, H) / 2 - 150;
+  const fs = rem.length > 50 ? 11 : 13;
+  rem.forEach((r, i) => {
+    const a = -Math.PI / 2 + 2 * Math.PI * i / Math.max(rem.length, 1);
+    const x = cx + R * Math.cos(a), y = cy + R * Math.sin(a);
+    const col = COLOR(r.verdict);
+    const line = el("line", {x1: cx, y1: cy, x2: x, y2: y, stroke: col, "stroke-width": 1.5 + Math.min(r.claims.length, 6),
+                             "stroke-linecap": "round", opacity: 0.85});
+    const g = el("g", {tabindex: 0, role: "button", style: "cursor:pointer"});
+    el("circle", {cx: x, cy: y, r: 5 + Math.min(r.claims.length, 6), fill: col}, g);
+    const label = mode === "plant" ? conds[r.condition].label : plants[r.plant].name;
+    // labels point outwards along the spoke, flipped on the left so they stay readable
+    const deg = a * 180 / Math.PI, left = Math.cos(a) < 0;
+    const lx = cx + (R + 16) * Math.cos(a), ly = cy + (R + 16) * Math.sin(a);
+    const t = el("text", {x: lx, y: ly, dy: "0.35em", "text-anchor": left ? "end" : "start",
+                          transform: `rotate(${left ? deg + 180 : deg} ${lx} ${ly})`,
+                          "font-family": "var(--sans)", "font-size": fs, fill: "var(--ink)"}, g);
+    t.textContent = label.length > 30 ? label.slice(0, 29) + "…" : label;
+    const title = el("title", {}, g); title.textContent = `${label}: ${r.claims.length} claim(s), ${VERDICTS[r.verdict]}`;
+    const open = () => { show(r); svg.querySelectorAll("line").forEach(l => l.setAttribute("opacity", 0.25)); line.setAttribute("opacity", 1); };
+    g.addEventListener("click", open);
+    g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+  });
+  el("circle", {cx, cy, r: 46, fill: "var(--herb)"});
+  const words = centreLabel.split(" ");
+  words.slice(0, 3).forEach((w, i) => {
+    const t = el("text", {x: cx, y: cy + 6 + (i - (Math.min(words.length, 3) - 1) / 2) * 20, "text-anchor": "middle",
+                          "font-family": "var(--serif)", "font-size": 20, "font-weight": 600, fill: "var(--panel)"});
+    t.textContent = w;
+  });
+  if (!rem.length) {
+    const t = el("text", {x: cx, y: cy + 80, "text-anchor": "middle", fill: "var(--muted)", "font-size": 14});
+    t.textContent = "No remedies with the selected verdicts.";
+  }
+}
+window.addEventListener("resize", draw);
+
+// ---------- detail panel
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c])); }
+function show(r) {
+  const p = plants[r.plant], c = conds[r.condition];
+  const quotes = r.claims.map(q => `<blockquote>\u201c${esc(q.quote)}\u201d<cite>for \u201c${esc(q.term)}\u201d${q.type === "harm" ? " (harm claim)" : ""} \u2014 ${esc(q.source)}, Book 20, chapter ${q.chapter}, sentence ${esc(q.sentence)}</cite></blockquote>`).join("");
+  const papers = r.papers.length ? r.papers.map(x => {
+    const link = /^\d+$/.test(x.id) ? `https://pubmed.ncbi.nlm.nih.gov/${x.id}/` : `https://europepmc.org/search?query=${encodeURIComponent(x.id)}`;
+    return `<div class="paper"><a href="${link}" target="_blank" rel="noopener">${esc(x.title)}</a><div class="meta">${esc(x.year || "")}, ${esc((x.study_type || "").replace("_", " "))}, result: ${esc(x.result || "")}</div></div>`;
+  }).join("") : `<p class="empty">No paper found that tests this plant for this condition.</p>`;
+  document.getElementById("detail").innerHTML = `
+    <h2>${esc(p.name)} \u2192 ${esc(c.label)}</h2>
+    <p class="sci">${esc(p.scientific || "")}${p.status ? " \u2014 plant identified via " + esc(p.status) : ""}</p>
+    <span class="verdict" style="background:${COLOR(r.verdict)}">${esc(VERDICTS[r.verdict])}</span>
+    <h3>What Pliny wrote</h3>${quotes}
+    <h3>Modern papers that test it</h3>${papers}
+    <p class="disclaimer">Historical claims, not medical advice. A verdict describes what the modern literature found in an automated search, not whether a remedy works or is safe.</p>`;
+}
+
+setMode("plant");
+</script>
+</body>
+</html>
